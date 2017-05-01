@@ -59,11 +59,10 @@
             </nav>
         </div>
     <h1>Qui sont etalab.gouv.fr?</h1>
-<p>quelques essais de traitement des <a href="https://gist.github.com/cquest/bbf1f88f305564fe80a47d7951255eb1#file-domaines-csv" target="_blank">données d'inscription</a> sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Ici un graphe hierarchique circulaire. Une tentative de <a href="chord.html" target="_blank">diagramme d'accord</a> est en cours également.</p>
-<svg width="1000" height="900"></svg>
+<p>quelques essais de traitement des <a href="https://gist.github.com/cquest/bbf1f88f305564fe80a47d7951255eb1#file-domaines-csv" target="_blank">données d'inscription</a> sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Ici un graphe hierarchique circulaire. Voir aussi les autres versions : <a href="chord.html" target="_blank">diagramme d'accord</a>, <a href="bubble.html" target="_blank">diagramme en bulles</a>.</p>
+<svg width="900" height="1150"></svg>
 
 <script>
-
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height"),
@@ -76,10 +75,47 @@ var tree = d3.tree()
     .size([360, 500])
     .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; });
 
-d3.csv("data/mastodon.etalab.full.csv", function(error, data) {
-  if (error) throw error;
+    d3.csv("https://gist.githubusercontent.com/cquest/bbf1f88f305564fe80a47d7951255eb1/raw/e5832d9ede04ea278cfe100cb88e39bf663738b5/domaines.csv", function(error, data) {
+        if (error) {
+            throw error;
+            console.log("maybe offline ? trying local cached data");
+            d3.csv("./data/mastodon.etalab.csv", function(er, da) {
+                if (er) throw er;
+                createCircleTree(da);
+            });
+        }
+        else createCircleTree(data);
+    });
 
-  var root = tree(stratify(data));
+function createCircleTree(data) {
+    var Read = [];
+    for (var d in data) {
+        if(data[d].domaine) {
+            // correction du domaine pour les ac-xxxx
+            var dom = data[d].domaine.replace(/(ac)-([-\w]*)\.fr/g, "$2.$1.fr");
+            // explosion du domaine
+            var Id = dom.split(".");
+            // ajout des informations de décompte et hierarchiques
+            var i = "";
+            for (var s = Id.length - 1; s >= 0 ; s--) {
+                i += Id[s];
+                if(Read[i]) Read[i] += 1 * data[d].nb;
+                else Read[i] = 1 * data[d].nb;
+                i += ".";
+            }
+        }
+    }
+    // mise en forme de la donnée
+    var imports = [];
+    for (var r in Read) {
+        var line = {
+            "id": r,
+            "value": Read[r]
+        };
+        imports.push(line);
+    }
+
+  var root = tree(stratify(imports));
 
   var link = g.selectAll(".link")
     .data(root.descendants().slice(1))
@@ -107,7 +143,7 @@ d3.csv("data/mastodon.etalab.full.csv", function(error, data) {
       .style("text-anchor", function(d) { return d.x < 180 === !d.children ? "start" : "end"; })
       .attr("transform", function(d) { return "rotate(" + (d.x < 180 ? d.x - 90 : d.x + 90) + ")"; })
       .text(function(d) { return d.id.substring(d.id.lastIndexOf(".") + 1); });
-});
+}
 
 function project(x, y) {
   var angle = (x - 90) / 180 * Math.PI, radius = y;

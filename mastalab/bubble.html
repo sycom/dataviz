@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Traitement de données de mastodon.etalab.gouv.fr</title>
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"/>
+<link rel="stylesheet" href="../lib/normalize-min.css" media="all" type="text/css" />
+<link rel="stylesheet" href="../lib/font-awesome-min.css" media="all" type="text/css" />
+<link rel="stylesheet" href="../css/styles.css" media="all" type="text/css" />
+
+<script src="../lib/d3.v4.min.js"></script>
+<style>
+.node circle {
+  fill: #5a5;
+  fill-opacity: 0.6;
+  stroke: #ddd;
+  stroke-opacity: 0.4;
+}
+
+.node text {
+  font: 12px Noto Sans;
+}
+
+.node--internal circle {
+  fill: #844;
+  fill-opacity: 0.4;
+  stroke: #555;
+  stroke-opacity: 0.6;
+}
+
+.node--internal text {
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #555;
+  stroke-opacity: 0.4;
+  stroke-width: 1.5px;
+}
+
+.fr circle {fill:#44a}
+.fr\.gouv circle {fill:#d44}
+.fr\.ac circle {fill:#a4a}
+</style>
+
+</head>
+
+<body>
+    <div id="container">
+        <div class="flotteur">
+            <nav id="navigation" role="navigation" class="nav">
+                <a class="fa fa-code-fork button" href="https://framagit.org/sycom/dataviz" title="code source"></a>
+                <a class="fa fa-home button" href="../" title="code source"></a>
+            </nav>
+        </div>
+    <h1>Qui sont etalab.gouv.fr?</h1>
+<p>quelques essais de traitement des <a href="https://gist.github.com/cquest/bbf1f88f305564fe80a47d7951255eb1#file-domaines-csv" target="_blank">données d'inscription</a> sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Ici un diagramme en bulles. Voir aussi les autres versions : <a href="chord.html" target="_blank">diagramme d'accord</a>, <a href="index.html" target="_blank">diagramme hierarchique circulaire</a>.</p>
+<svg width="1000" height="900" text-anchor="middle"></svg>
+
+<script>
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var format = d3.format(",d");
+
+var color = d3.scaleOrdinal(d3.schemeCategory20c);
+
+var pack = d3.pack()
+    .size([width, height])
+    .padding(1.5);
+
+d3.csv("./data/mastodon.etalab.full.csv", function(d) {
+  d.value = +d.value;
+  if (d.value) return d;
+}, function(error, classes) {
+  if (error) throw error;
+
+  var root = d3.hierarchy({children: classes})
+      .sum(function(d) { return d.value; })
+      .each(function(d) {
+        if (id = d.data.id) {
+          var id, i = id.lastIndexOf(".");
+          d.id = id;
+          d.package = id.slice(0, i);
+          d.class = id.slice(i + 1);
+        }
+      });
+
+  var node = svg.selectAll(".node")
+    .data(pack(root).leaves())
+    .enter().append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+
+  node.append("circle")
+      .attr("id", function(d) { return d.id; })
+      .attr("r", function(d) { return d.r; })
+      .style("fill", function(d) { return color(d.package); });
+
+  node.append("clipPath")
+      .attr("id", function(d) { return "clip-" + d.id; })
+    .append("use")
+      .attr("xlink:href", function(d) { return "#" + d.id; });
+
+  node.append("text")
+      .attr("clip-path", function(d) { return "url(#clip-" + d.id + ")"; })
+    .selectAll("tspan")
+    .data(function(d) { return d.class.split(/(?=[A-Z][^A-Z])/g); })
+    .enter().append("tspan")
+      .attr("x", 0)
+      .attr("y", function(d, i, nodes) { return 13 + (i - nodes.length / 2 - 0.5) * 10; })
+      .text(function(d) { return d; });
+
+  node.append("title")
+      .text(function(d) { return d.id + "\n" + format(d.value); });
+});
+
+</script>
+
+</script>
+</div>
+
+<script>
+var page = window.location.hostname;
+if(navigator.doNotTrack != 1) {
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('set', 'page', page);
+      ga('set', 'title', document.title);
+      ga('create', 'UA-109815-12', page);
+      ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>

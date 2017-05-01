@@ -5,8 +5,10 @@
 pour l'instant, il n'y a qu'un exercice ici, d'autres sont disponibles dans le groupe know-rmandie
 
 ## à partir des [données de mastodon.etalab.gouv.fr][datas] (*mastalab*)
-* diagramme d'accords - va chercher directement les données dans le [gist][datas]
+les deux premiers vont chercher les données directement dans le [gist][datas]
 * arbre hierarchique radial
+* diagramme d'accords
+* diagramme en bulles
 
 ![l'arbre hierarchique radial](./mastalab/img/visu-hierach-cercle-201705.png)
 
