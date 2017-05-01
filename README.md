@@ -8,13 +8,15 @@ pour l'instant, il n'y a qu'un exercice ici, d'autres sont disponibles dans le g
 * diagramme Chord (ne fonctionne pas vraiment pour l'instant)
 * arbre hierarchique radial
 
+![l'arbre hierarchique radial](./mastalab/img/visu-hierach-cercle-201705.png)
+
 ## credits
 Hand coded with some libraries support :
 * [d3][d3] *3.?.?* et *4.8.0*
     * les [exemples][blocks] fournis par Mike Bostock
 
 ## parcours
-* [framagit][origin] branche *dataviz* > **[frama.io page][frio-page]**
+* [framagit][origin] branche > **[frama.io page][frio-page]**
     * [gitlab][gitlab] > **[gitlab page][gl-page]**
         * [github][github] > **[github page][gh-page]**
 
