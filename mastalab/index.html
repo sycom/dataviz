@@ -14,13 +14,6 @@
 
 <script src="../lib/d3.v4.min.js"></script>
 <style>
-body {font-family:"Noto Sans"}
-#container {
-    width:100%;padding:1em;
-    max-width:1000px;
-    margin:auto;
-    text-align:center;
-}
 .node circle {
   fill: #5a5;
   fill-opacity: 0.6;
@@ -59,8 +52,14 @@ body {font-family:"Noto Sans"}
 
 <body>
     <div id="container">
-    <h1>qui sont etalab.gouv.fr?</h1>
-<p>quelques essais de traitement des <a href="https://gist.github.com/cquest/bbf1f88f305564fe80a47d7951255eb1#file-domaines-csv" target="_blank">données d'inscription</a> sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Ici un graphe hierarchique circulaire. Une tentative de <a href="chord.html" target="_blank">diagramme de chord</a> est en cours également.</p>
+        <div class="flotteur">
+            <nav id="navigation" role="navigation" class="nav">
+                <a class="fa fa-code-fork button" href="https://framagit.org/sycom/dataviz" title="code source"></a>
+                <a class="fa fa-home button" href="../" title="code source"></a>
+            </nav>
+        </div>
+    <h1>Qui sont etalab.gouv.fr?</h1>
+<p>quelques essais de traitement des <a href="https://gist.github.com/cquest/bbf1f88f305564fe80a47d7951255eb1#file-domaines-csv" target="_blank">données d'inscription</a> sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Ici un graphe hierarchique circulaire. Une tentative de <a href="chord.html" target="_blank">diagramme d'accord</a> est en cours également.</p>
 <svg width="1000" height="900"></svg>
 
 <script>

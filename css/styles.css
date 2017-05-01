@@ -3,19 +3,17 @@
 /******************/
 * {box-sizing:border-box}
 
-.high h1, .high nav, .header {padding:.5em 1em}
-.high nav {text-align:right}
-.high nav .buttons li {display: inline-block;margin:0 .25em;padding:.5em;border-radius:3px}
+#container {
+    width:100%;padding:1em;
+    max-width:1000px;
+    margin:auto;
+}
 
-.header, .footer {padding:.5em}
-.contact {padding:1.5em 0 2em 0}
+h1 {text-align:center}
 
-.c3 {margin:1.5em .25em;padding:1em;vertical-align:top;border-radius:2px}
-.c3 h3 {margin-top:0}
-
-.row > .right {padding:1em}
-
-.dense {margin:0;padding:0}
+.flotteur {float:right}
+.flotteur nav {text-align:right}
+.flotteur nav .button {display: inline-block;margin:0 .25em;padding:.5em;border-radius:3px}
 
 .fa-stack .label {display:none}
 .fa-stack {margin:0}
@@ -23,16 +21,14 @@
 /*****************/
 /*    T Y P O     */
 /******************/
-html {font-family: "Duru Sans", sans-serif; font-size:16px; line-height: 1.5}
-.row {font-size:0}
-.row h1, .row div, .row nav {font-size:initial}
-.row nav .buttons li a {text-decoration:none;font-size:initial}
+body {font-family:"Noto Sans"}
 
-.c3 h3 {font-size:125%}
+#container {
+    text-align:justify;
+}
 
-.header, .footer {text-align:center;line-height: 1.5}
-
-.fa-stack a {text-decoration: none}
+.flotteur nav {font-size: 150%}
+.flotteur nav a {text-decoration: none}
 
 /******************/
 /*  C O L O R S    */
@@ -43,10 +39,10 @@ a {color:#363}
   a:hover {black}
   a:visited {color:#5c9}
 
-.high nav .buttons li {border:#5c9 solid 1px}
-   .high nav .buttons li a {color:#5c9}
-  .high nav .buttons li:hover {background:#999}
-  .high nav .buttons li:hover a {color:white}
+.flotteur nav .button {border:#5c9 solid 1px}
+   .flotteur nav .button {color:#5c9}
+  .flotteur nav .button:hover {background:#999}
+  .flotteur nav .button:hover a {color:white}
 
 .header,.footer {background:#5c9;background-image: linear-gradient(125deg,white,#5c9,#5c9,#5c9);}
   .header a {color:#555;font-weight:bold;text-decoration:none}

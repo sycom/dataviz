@@ -5,7 +5,7 @@
 pour l'instant, il n'y a qu'un exercice ici, d'autres sont disponibles dans le groupe know-rmandie
 
 ## à partir des [données de mastodon.etalab.gouv.fr][datas] (*mastalab*)
-* diagramme Chord (ne fonctionne pas vraiment pour l'instant)
+* diagramme d'accords - va chercher directement les données dans le [gist][datas]
 * arbre hierarchique radial
 
 ![l'arbre hierarchique radial](./mastalab/img/visu-hierach-cercle-201705.png)
