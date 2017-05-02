@@ -62,11 +62,11 @@
         left: 1
       },
       width = 960 - margin.left - margin.right,
-      height = 500 - margin.top - margin.bottom;
+      height = 2000 - margin.top - margin.bottom;
 
     var formatNumber = d3.format(",.0f"),
       format = function(d) {
-        return formatNumber(d) + " TWh";
+        return formatNumber(d) + "";
       },
       color = d3.scaleOrdinal(d3.schemeCategory20);
 
@@ -75,6 +75,10 @@
       .attr("height", height + margin.top + margin.bottom)
       .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+
+
 
     var sankey = d3.sankey()
       .nodeWidth(15)
@@ -96,7 +100,7 @@
     });
 
 function createSankey(data) {
-    var Noeuds = [], Liens = [];
+    var Noeuds = [], Liens = [], num = 0;
     for (var d in data) {
         if(data[d].domaine) {
             // correction du domaine pour les ac-xxxx
@@ -105,16 +109,20 @@ function createSankey(data) {
             var Id = dom.split(".");
             // ajout des informations de noeuds et de liens
             for (var s = Id.length - 1; s >= 0 ; s--) {
-                if(Noeuds[Id[s]]) Noeuds[Id[s]] += 1 * data[d].nb;
-                else Noeuds[Id[s]] = 1 * data[d].nb;
+                if(Noeuds[Id[s]] === undefined) {
+                    Noeuds[Id[s]] = num;
+                    num++;
+                }
                 if (s > 0) {
-                    if(Liens[Id[s]]) {
-                        if(Liens[Id[s]][Id[s-1]]) Liens[Id[s]][Id[s-1]] += 1 * data[d].nb;
-                        else Liens[Id[s]][Id[s-1]] = 1 * data[d].nb;
-                    }
-                    else {
+                    if(Liens[Id[s]] === undefined) {
                         Liens[Id[s]] = [];
                         Liens[Id[s]][Id[s-1]] = 1 * data[d].nb;
+                    }
+                    else {
+                        if(Liens[Id[s]][Id[s-1]] === undefined) {
+                            Liens[Id[s]][Id[s-1]] = 1 * data[d].nb;
+                        }
+                        else Liens[Id[s]][Id[s-1]] += 1 * data[d].nb;
                     }
                 }
             }
@@ -124,35 +132,30 @@ function createSankey(data) {
 
     // mise en forme de la donnée
     var nds = [], lnks = [];
-    var countN = 0;
-    for (var n=0; n < Noeuds.length - 1;n++) {
+    for (var n in Noeuds) {
         var line = {
-            "name": Noeuds[n].index,
-            "count": Noeuds[n].value
+            "name": n,
         };
         nds.push(line);
-        var countL = 0;
-        for (var l in Liens[Noeuds[n].index]) {
+        for (var l in Liens[n]) {
             var line = {
-                "source": countN,
-                "target": countL,
-                "value": Liens[Noeuds[n].index][l]
+                "source": Noeuds[n],
+                "target": Noeuds[l],
+                "value": Liens[n][l]
             };
             lnks.push(line);
-            countL++;
         }
-        countN++;
     }
-    var energy = {"nodes": nds, "links": lnks};
-    console.log(energy);
+    var mastalab = {"nodes": nds, "links": lnks};
+    //console.log(JSON.stringify(mastalab));
 
     sankey
-        .nodes(energy.nodes)
-        .links(energy.links)
+        .nodes(mastalab.nodes)
+        .links(mastalab.links)
         .layout(32);
 
       var link = svg.append("g").selectAll(".link")
-        .data(energy.links)
+        .data(mastalab.links)
         .enter().append("path")
         .attr("class", "link")
         .attr("d", path)
@@ -169,7 +172,7 @@ function createSankey(data) {
         });
 
       var node = svg.append("g").selectAll(".node")
-        .data(energy.nodes)
+        .data(mastalab.nodes)
         .enter().append("g")
         .attr("class", "node")
         .attr("transform", function(d) {
@@ -205,7 +208,7 @@ function createSankey(data) {
         .attr("y", function(d) {
           return d.dy / 2;
         })
-        .attr("dy", ".35em")
+        .attr("dy", ".3em")
         .attr("text-anchor", "end")
         .attr("transform", null)
         .text(function(d) {

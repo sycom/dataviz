@@ -5,9 +5,10 @@
 pour l'instant, il n'y a qu'un exercice ici, d'autres sont disponibles dans le groupe know-rmandie
 
 ## à partir des [données de mastodon.etalab.gouv.fr][datas] (*mastalab*)
-les deux premiers vont chercher les données directement dans le [gist][datas]
+les trois premiers vont chercher les données directement dans le [gist][datas]
 * arbre hierarchique radial
 * diagramme d'accords
+* diagramme de Sankey
 * diagramme en bulles
 
 ![l'arbre hierarchique radial](./mastalab/img/visu-hierach-cercle-201705.png)
