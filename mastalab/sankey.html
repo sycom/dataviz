@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Traitement de données de mastodon.etalab.gouv.fr</title>
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"/>
+<link rel="stylesheet" href="../lib/normalize-min.css" media="all" type="text/css" />
+<link rel="stylesheet" href="../lib/font-awesome-min.css" media="all" type="text/css" />
+<link rel="stylesheet" href="../css/styles.css" media="all" type="text/css" />
+
+<script src="../lib/d3.v4.min.js"></script>
+<script src="../lib/d3-sankey.min.js"></script>
+<style>
+#chart {
+    height: 500px;
+  }
+
+  .node rect {
+    cursor: move;
+    fill-opacity: .9;
+    shape-rendering: crispEdges;
+  }
+
+  .node text {
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff;
+  }
+
+  .link {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .2;
+  }
+
+  .link:hover {
+    stroke-opacity: .5;
+  }
+</style>
+
+</head>
+
+<body>
+    <div id="container">
+        <div class="flotteur">
+            <nav id="navigation" role="navigation" class="nav">
+                <a class="fa fa-code-fork button" href="https://framagit.org/sycom/dataviz" title="code source"></a>
+                <a class="fa fa-home button" href="../" title="code source"></a>
+            </nav>
+        </div>
+    <h1>Qui sont etalab.gouv.fr?</h1>
+<p>quelques essais de traitement des <a href="https://gist.github.com/cquest/bbf1f88f305564fe80a47d7951255eb1#file-domaines-csv" target="_blank">données d'inscription</a> sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Ici un diagramme de Sankey. Voir aussi les autres versions : <a href="index.html" target="_blank">graphe hiérarchique circulaire</a>, <a href="chord.html" target="_blank">diagramme d'accord</a>, <a href="bubble.html" target="_blank">diagramme en bulles</a>.</p>
+<div id="chart"></div>
+  <script>
+    var margin = {
+        top: 1,
+        right: 1,
+        bottom: 6,
+        left: 1
+      },
+      width = 960 - margin.left - margin.right,
+      height = 2000 - margin.top - margin.bottom;
+
+    var formatNumber = d3.format(",.0f"),
+      format = function(d) {
+        return formatNumber(d) + "";
+      },
+      color = d3.scaleOrdinal(d3.schemeCategory20);
+
+    var svg = d3.select("#chart").append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+
+
+
+    var sankey = d3.sankey()
+      .nodeWidth(15)
+      .nodePadding(10)
+      .size([width, height]);
+
+    var path = sankey.link();
+
+    d3.csv("https://gist.githubusercontent.com/cquest/bbf1f88f305564fe80a47d7951255eb1/raw/e5832d9ede04ea278cfe100cb88e39bf663738b5/domaines.csv", function(error, data) {
+        if (error) {
+            throw error;
+            console.log("maybe offline ? trying local cached data");
+            d3.csv("./data/mastodon.etalab.csv", function(er, da) {
+                if (er) throw er;
+                createSankey(da);
+            });
+        }
+        else createSankey(data);
+    });
+
+function createSankey(data) {
+    var Noeuds = [], Liens = [], num = 0;
+    for (var d in data) {
+        if(data[d].domaine) {
+            // correction du domaine pour les ac-xxxx
+            var dom = data[d].domaine.replace(/(ac)-([-\w]*)\.fr/g, "$2.$1.fr");
+            // explosion du domaine
+            var Id = dom.split(".");
+            // ajout des informations de noeuds et de liens
+            for (var s = Id.length - 1; s >= 0 ; s--) {
+                if(Noeuds[Id[s]] === undefined) {
+                    Noeuds[Id[s]] = num;
+                    num++;
+                }
+                if (s > 0) {
+                    if(Liens[Id[s]] === undefined) {
+                        Liens[Id[s]] = [];
+                        Liens[Id[s]][Id[s-1]] = 1 * data[d].nb;
+                    }
+                    else {
+                        if(Liens[Id[s]][Id[s-1]] === undefined) {
+                            Liens[Id[s]][Id[s-1]] = 1 * data[d].nb;
+                        }
+                        else Liens[Id[s]][Id[s-1]] += 1 * data[d].nb;
+                    }
+                }
+            }
+        }
+    }
+    console.log(Noeuds);console.log(Liens);
+
+    // mise en forme de la donnée
+    var nds = [], lnks = [];
+    for (var n in Noeuds) {
+        var line = {
+            "name": n,
+        };
+        nds.push(line);
+        for (var l in Liens[n]) {
+            var line = {
+                "source": Noeuds[n],
+                "target": Noeuds[l],
+                "value": Liens[n][l]
+            };
+            lnks.push(line);
+        }
+    }
+    var mastalab = {"nodes": nds, "links": lnks};
+    //console.log(JSON.stringify(mastalab));
+
+    sankey
+        .nodes(mastalab.nodes)
+        .links(mastalab.links)
+        .layout(32);
+
+      var link = svg.append("g").selectAll(".link")
+        .data(mastalab.links)
+        .enter().append("path")
+        .attr("class", "link")
+        .attr("d", path)
+        .style("stroke-width", function(d) {
+          return Math.max(1, d.dy);
+        })
+        .sort(function(a, b) {
+          return b.dy - a.dy;
+        });
+
+      link.append("title")
+        .text(function(d) {
+          return d.source.name + " → " + d.target.name + "\n" + format(d.value);
+        });
+
+      var node = svg.append("g").selectAll(".node")
+        .data(mastalab.nodes)
+        .enter().append("g")
+        .attr("class", "node")
+        .attr("transform", function(d) {
+          return "translate(" + d.x + "," + d.y + ")";
+        })
+        .call(d3.drag()
+          .subject(function(d) {
+            return d;
+          })
+          .on("start", function() {
+            this.parentNode.appendChild(this);
+          })
+          .on("drag", dragmove));
+
+      node.append("rect")
+        .attr("height", function(d) {
+          return d.dy;
+        })
+        .attr("width", sankey.nodeWidth())
+        .style("fill", function(d) {
+          return d.color = color(d.name.replace(/ .*/, ""));
+        })
+        .style("stroke", function(d) {
+          return d3.rgb(d.color).darker(2);
+        })
+        .append("title")
+        .text(function(d) {
+          return d.name + "\n" + format(d.value);
+        });
+
+      node.append("text")
+        .attr("x", -6)
+        .attr("y", function(d) {
+          return d.dy / 2;
+        })
+        .attr("dy", ".3em")
+        .attr("text-anchor", "end")
+        .attr("transform", null)
+        .text(function(d) {
+          return d.name;
+        })
+        .filter(function(d) {
+          return d.x < width / 2;
+        })
+        .attr("x", 6 + sankey.nodeWidth())
+        .attr("text-anchor", "start");
+
+      function dragmove(d) {
+        d3.select(this).attr("transform", "translate(" + d.x + "," + (d.y = Math.max(0, Math.min(height - d.dy, d3.event.y))) + ")");
+        sankey.relayout();
+        link.attr("d", path);
+      }
+    }
+  </script>
+</div>
+
+<script>
+var page = window.location.hostname;
+if(navigator.doNotTrack != 1) {
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('set', 'page', page);
+      ga('set', 'title', document.title);
+      ga('create', 'UA-109815-12', page);
+      ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>
