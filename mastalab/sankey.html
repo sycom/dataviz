@@ -125,18 +125,18 @@ function createSankey(data) {
     // mise en forme de la donnée
     var nds = [], lnks = [];
     var countN = 0;
-    for (var n in Noeuds) {
+    for (var n=0; n < Noeuds.length - 1;n++) {
         var line = {
-            "name": n,
-            "count": Noeuds[n]
+            "name": Noeuds[n].index,
+            "count": Noeuds[n].value
         };
         nds.push(line);
         var countL = 0;
-        for (var l in Liens[n]) {
+        for (var l in Liens[Noeuds[n].index]) {
             var line = {
                 "source": countN,
                 "target": countL,
-                "value": Liens[n][l]
+                "value": Liens[Noeuds[n].index][l]
             };
             lnks.push(line);
             countL++;
