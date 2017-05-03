@@ -5,10 +5,10 @@
 pour l'instant, il n'y a qu'un exercice ici, d'autres sont disponibles dans le groupe know-rmandie
 
 ## à partir des [données de mastodon.etalab.gouv.fr][datas] (*mastalab*)
-les trois premiers vont chercher les données directement dans le [gist][datas]
+les trois premiers vont chercher les données directement dans les gist
 * arbre hierarchique radial
-* diagramme d'accords
-* diagramme de Sankey
+* diagramme d'accords (habitants et qui suit qui)
+* diagramme de Sankey (habitants et qui suit qui)
 * diagramme en bulles
 
 ![l'arbre hierarchique radial](./mastalab/img/visu-hierach-cercle-201705.png)
@@ -16,7 +16,12 @@ les trois premiers vont chercher les données directement dans le [gist][datas]
 ## credits
 Hand coded with some libraries support :
 * [d3][d3] *3.?.?* et *4.8.0*
+    * d3-sankey plugin
     * les [exemples][blocks] fournis par Mike Bostock
+
+Données :
+* [habitants du mastalab][habitants]
+* [qui suit qui][quisuit]
 
 ## parcours
 * [framagit][origin] branche > **[frama.io page][frio-page]**
@@ -31,6 +36,7 @@ Hand coded with some libraries support :
 [github]:https://github.com/sycom/dataviz
 [gh-page]:https://sycom.github.io/dataviz
 
-[datas]:https://gist.github.com/cquest/bbf1f88f305564fe80a47d7951255eb1#file-domaines-csv
+[habitants]:https://gist.github.com/cquest/bbf1f88f305564fe80a47d7951255eb1
+[quisuit]:https://gist.github.com/cquest/e5bd4e4e6a315e656cb15748f1fadf2d
 [d3]:https://d3js.org
 [blocks]:https://bl.ocks.org/

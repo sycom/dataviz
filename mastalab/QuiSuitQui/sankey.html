@@ -3,17 +3,17 @@
 
 <head>
 <meta charset="UTF-8">
-<title>Diagrammed de Sankey de mastodon.etalab.gouv.fr</title>
+<title>Qui suit qui sur mastodon.etalab.gouv.fr</title>
 <meta charset="utf-8">
 <meta name="HandheldFriendly" content="True">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"/>
-<link rel="stylesheet" href="../lib/normalize-min.css" media="all" type="text/css" />
-<link rel="stylesheet" href="../lib/font-awesome-min.css" media="all" type="text/css" />
-<link rel="stylesheet" href="../css/styles.css" media="all" type="text/css" />
+<link rel="stylesheet" href="../../lib/normalize-min.css" media="all" type="text/css" />
+<link rel="stylesheet" href="../../lib/font-awesome-min.css" media="all" type="text/css" />
+<link rel="stylesheet" href="../../css/styles.css" media="all" type="text/css" />
 
-<script src="../lib/d3.v4.min.js"></script>
-<script src="../lib/d3-sankey.min.js"></script>
+<script src="../../lib/d3.v4.min.js"></script>
+<script src="../../lib/d3-sankey.min.js"></script>
 <style>
 #chart {
     height: 500px;
@@ -48,11 +48,11 @@
         <div class="flotteur">
             <nav id="navigation" role="navigation" class="nav">
                 <a class="fa fa-code-fork button" href="https://framagit.org/sycom/dataviz" title="code source"></a>
-                <a class="fa fa-home button" href="../" title="accueil"></a>
+                <a class="fa fa-home button" href="../../" title="accueil"></a>
             </nav>
         </div>
-    <h1>Qui sont etalab.gouv.fr?</h1>
-<p>quelques essais de traitement des <a href="https://gist.github.com/cquest/bbf1f88f305564fe80a47d7951255eb1#file-domaines-csv" target="_blank">données d'inscription</a> sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Ici un diagramme de Sankey. Voir aussi les <a href="../index.html">autres versions</a>.</p>
+    <h1>Qui suit qui sur etalab.gouv.fr?</h1>
+<p>Diagramme de Sankey montrant qui suit qui sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Mis à jour automatiquement à partir des <a href="https://gist.github.com/cquest/e5bd4e4e6a315e656cb15748f1fadf2d" target="_blank">données sur gist</a>.</p>
 <div id="chart"></div>
   <script>
     var margin = {
@@ -76,6 +76,10 @@
       .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+
+
+
+
     var sankey = d3.sankey()
       .nodeWidth(15)
       .nodePadding(10)
@@ -83,10 +87,10 @@
 
     var path = sankey.link();
 
-    d3.csv("https://gist.githubusercontent.com/cquest/bbf1f88f305564fe80a47d7951255eb1/raw/e5832d9ede04ea278cfe100cb88e39bf663738b5/domaines.csv", function(error, data) {
+    d3.csv("https://gist.githubusercontent.com/cquest/e5bd4e4e6a315e656cb15748f1fadf2d/raw/da5b869cdbc878bfdcf573f7d5f49244c2bf0816/follow.csv", function(error, data) {
         if (error) {
             console.log("maybe offline ? trying local cached data");
-            d3.csv("./data/mastodon.etalab.csv", function(er, da) {
+            d3.csv("./data/follow.etalab.csv", function(er, da) {
                 if (er) throw er;
                 createSankey(da);
             });
@@ -97,28 +101,34 @@
 function createSankey(data) {
     var Noeuds = [], Liens = [], num = 0;
     for (var d in data) {
-        if(data[d].domaine) {
+        if(data[d].source !== undefined) {
+            console.log(data[d].source);
             // correction du domaine pour les ac-xxxx
-            var dom = data[d].domaine.replace(/(ac)-([-\w]*)\.fr/g, "$2.$1.fr");
-            // explosion du domaine
-            var Id = dom.split(".");
-            // ajout des informations de noeuds et de liens
-            for (var s = Id.length - 1; s >= 0 ; s--) {
-                if(Noeuds[Id[s]] === undefined) {
-                    Noeuds[Id[s]] = num;
+            var dom = data[d].source.replace(/(ac)-([-\w]*)\.fr/g, "$2.$1.fr");
+            // explosion du domaine récupération du premier item seulement
+            var s = dom.split(".")[0]+" ";
+            if(Noeuds[s] === undefined) {
+                Noeuds[s] = num;
+                num++;
+            }
+            if(data[d].target !== undefined) {
+                dom = data[d].target.replace(/(ac)-([-\w]*)\.fr/g, "$2.$1.fr");
+                // explosion du domaine récupération du premier item seulement
+                var t = " "+dom.split(".")[0];
+                if(Noeuds[t] === undefined) {
+                    Noeuds[t] = num;
                     num++;
                 }
-                if (s > 0) {
-                    if(Liens[Id[s]] === undefined) {
-                        Liens[Id[s]] = [];
-                        Liens[Id[s]][Id[s-1]] = 1 * data[d].nb;
+                var nb = 1 * data[d].count;
+                if(Liens[s] === undefined) {
+                    Liens[s] = [];
+                    Liens[s][t] = nb;
+                }
+                else {
+                    if(Liens[s][t] === undefined) {
+                        Liens[s][t] = nb;
                     }
-                    else {
-                        if(Liens[Id[s]][Id[s-1]] === undefined) {
-                            Liens[Id[s]][Id[s-1]] = 1 * data[d].nb;
-                        }
-                        else Liens[Id[s]][Id[s-1]] += 1 * data[d].nb;
-                    }
+                    else Liens[s][t] += nb;
                 }
             }
         }

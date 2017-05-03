@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="UTF-8">
-<title>Traitement de données de mastodon.etalab.gouv.fr</title>
+<title>Diagramme hierarchique circulaire de mastodon.etalab.gouv.fr</title>
 <meta charset="utf-8">
 <meta name="HandheldFriendly" content="True">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -55,7 +55,7 @@
         <div class="flotteur">
             <nav id="navigation" role="navigation" class="nav">
                 <a class="fa fa-code-fork button" target="_blank" href="https://framagit.org/sycom/dataviz" title="code source"></a>
-                <a class="fa fa-home button" href="../" title="code source"></a>
+                <a class="fa fa-home button" href="../" title="accueil"></a>
             </nav>
         </div>
     <h1>Qui sont etalab.gouv.fr?</h1>
@@ -77,7 +77,6 @@ var tree = d3.tree()
 
     d3.csv("https://gist.githubusercontent.com/cquest/bbf1f88f305564fe80a47d7951255eb1/raw/e5832d9ede04ea278cfe100cb88e39bf663738b5/domaines.csv", function(error, data) {
         if (error) {
-            throw error;
             console.log("maybe offline ? trying local cached data");
             d3.csv("./data/mastodon.etalab.csv", function(er, da) {
                 if (er) throw er;
