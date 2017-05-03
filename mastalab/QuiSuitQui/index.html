@@ -8,10 +8,10 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet" />
-    <link rel="stylesheet" href="../lib/normalize-min.css" media="all" type="text/css" />
-    <link rel="stylesheet" href="../lib/font-awesome-min.css" media="all" type="text/css" />
-    <link rel="stylesheet" href="../css/styles.css" media="all" type="text/css" />
-    <script src="../lib/d3.v4.min.js"></script>
+    <link rel="stylesheet" href="../../lib/normalize-min.css" media="all" type="text/css" />
+    <link rel="stylesheet" href="../../lib/font-awesome-min.css" media="all" type="text/css" />
+    <link rel="stylesheet" href="../../css/styles.css" media="all" type="text/css" />
+    <script src="../../lib/d3.v4.min.js"></script>
     <style>
         svg {
             font: 12px sans-serif;
@@ -32,69 +32,72 @@
         <div class="flotteur">
             <nav id="navigation" role="navigation" class="nav">
                 <a class="fa fa-code-fork button" target="_blank" href="https://framagit.org/sycom/dataviz" title="code source"></a>
-                <a class="fa fa-home button" href="../" title="accueil"></a>
+                <a class="fa fa-home button" href="../../" title="accueil"></a>
             </nav>
         </div>
-        <h1>Qui sont etalab.gouv.fr ?</h1>
-        <p>quelques essais de traitement des <a href="https://gist.github.com/cquest/bbf1f88f305564fe80a47d7951255eb1" target="_blank">données d'inscription</a> sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Ici un diagramme d'accords (qui n'est en fait pas une représentation très adaptée et présente donc de nombreux défauts - mais c'est beau). Voir aussi les <a href="../index.html">autres versions</a>.</p>
-        <p id="resultat"></p>
+        <h1>Qui sont etalab.gouv.fr?</h1>
+        <p>Diagramme de Sankey montrant qui suit qui sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Mis à jour automatiquement à partir des <a href="https://gist.github.com/cquest/e5bd4e4e6a315e656cb15748f1fadf2d" target="_blank">données sur gist</a>. Cette fois, la représentation est adaptée à la donnée. On y voit plus clair en survolant l'anneau, mais il faut être patient, il y a beaucoup de liens...</p>
 
         <div id="graphe">
-            <svg width="1000" height="1000"></svg>
+            <svg width="1000" height="1200"></svg>
             <script>
                 /* traitement des données directement issues de etalab.gouv.fr */
-                d3.csv("https://gist.githubusercontent.com/cquest/bbf1f88f305564fe80a47d7951255eb1/raw/e5832d9ede04ea278cfe100cb88e39bf663738b5/domaines.csv", function(error, data) {
-                    if (error || data === undefined) {
+                d3.csv("https://gist.githubusercontent.com/cquest/e5bd4e4e6a315e656cb15748f1fadf2d/raw/da5b869cdbc878bfdcf573f7d5f49244c2bf0816/follow.csv", function(error, data) {
+                    if (error) {
                         console.log("maybe offline ? trying local cached data");
-                        d3.csv("./data/mastodon.etalab.csv", function(er, da) {
+                        d3.csv("./data/follow.etalab.csv", function(er, da) {
                             if (er) throw er;
                             createChord(da);
                         });
-                    } else createChord(data);
+                    }
+                    else createChord(data);
                 });
 
-                function createChord(data) {
-                    var Read = [];
-                    for (var d in data) {
-                        if (data[d].domaine !== undefined) {
-                            // correction du domaine pour les ac-xxxx
-                            var dom = data[d].domaine.replace(/(ac)-([-\w]*)\.fr/g, "$2.$1.fr");
-                            // explosion du domaine
-                            var Id = dom.split(".");
-                            // ajout des informations de décompte et hierarchiques
-                            for (var s = 0; s < Id.length; s++) {
-                                var suiv = s + 1,
-                                    prec = s - 1;
-                                // initialisation des entrées de matrice
-                                if (Read[Id[s]] === undefined) Read[Id[s]] = [];
-                                //if (Read[Id[s]][Id[s]] === undefined) Read[Id[s]][Id[s]] = 1 * data[d].nb;
-                                //else Read[Id[s]][Id[s]] += 1 * data[d].nb;
-
-                                // remplissage des valeurs suiv > s et s > prec
-
-                                if (suiv < Id.length) {
-                                    if (Read[Id[suiv]] === undefined) Read[Id[suiv]] = [];
-                                    if (Read[Id[suiv]][Id[s]] === undefined) Read[Id[suiv]][Id[s]] = 1 * data[d].nb;
-                                    else Read[Id[suiv]][Id[s]] += 1 * data[d].nb;
+            function createChord(data) {
+                var Noeuds = [], Liens = [], num = 0;
+                for (var d in data) {
+                    if(data[d].source !== undefined) {
+                        // correction du domaine pour les ac-xxxx
+                        var dom = data[d].source.replace(/(ac)-([-\w]*)\.fr/g, "$2.$1.fr");
+                        // explosion du domaine récupération du premier item seulement
+                        var s = dom.split(".")[0];
+                        if(Noeuds[s] === undefined) {
+                            Noeuds[s] = num;
+                            num++;
+                        }
+                        if(data[d].target !== undefined) {
+                            dom = data[d].target.replace(/(ac)-([-\w]*)\.fr/g, "$2.$1.fr");
+                            // explosion du domaine récupération du premier item seulement
+                            var t = dom.split(".")[0];
+                            if(Noeuds[t] === undefined) {
+                                Noeuds[t] = num;
+                                num++;
+                            }
+                            var nb = 1 * data[d].count;
+                            if(Liens[s] === undefined) {
+                                Liens[s] = [];
+                                Liens[s][t] = nb;
+                            }
+                            else {
+                                if(Liens[s][t] === undefined) {
+                                    Liens[s][t] = nb;
                                 }
-                                if (s > 0) {
-                                    if (Read[Id[prec]] === undefined) Read[Id[prec]] = [];
-                                    if (Read[Id[s]][Id[prec]] === undefined) Read[Id[s]][Id[prec]] = 1 * data[d].nb;
-                                    else Read[Id[s]][Id[prec]] += 1 * data[d].nb;
-                                }
+                                else Liens[s][t] += nb;
                             }
                         }
                     }
-                    //console.log(Read);
+                }
+                //console.log(Noeuds);console.log(Liens);
 
-                    // mise en forme de la donnée
+
+                // mise en forme de la donnée
                     var matrice = [], names = [];
-                    for (var is in Read) {
+                    for (var is in Noeuds) {
+                        if (Liens[is] === undefined) Liens[is] = [];
                         var line = [];
                         names.push(is);
-                        Read[is][is] = 0;
-                        for (var has in Read) {
-                            if (Read[is][has] !== undefined) line.push(Read[is][has]/2);
+                        for (var has in Noeuds) {
+                            if (Liens[is][has] !== undefined) line.push(Liens[is][has]);
                             else line.push(0);
                         }
                         matrice.push(line);
@@ -103,8 +106,8 @@
 
                     /* adapté de https://bl.ocks.org/mbostock/4062006 */
                     var svg = d3.select("svg"),
-                        width = +svg.attr("width")-100,
-                        height = +svg.attr("height")-100,
+                        width = +svg.attr("width") - 150,
+                        height = +svg.attr("height") - 50,
                         outerRadius = Math.min(width, height) * 0.5 - 40,
                         innerRadius = outerRadius - 30;
 
@@ -124,7 +127,7 @@
                     var color = d3.scaleOrdinal(d3.schemeCategory20);
 
                     var g = svg.append("g")
-                        .attr("transform", "translate(" + (width / 2 +50) + "," + height / 2 + ")")
+                        .attr("transform", "translate(" + (width / 2 + 50) + "," + height / 2 + ")")
                         .datum(chord(matrice));
 
                     var group = g.append("g")
@@ -205,14 +208,15 @@
                     }
 
                     // Returns an event handler for fading a given chord group.
-                    function fade(opacity) {
+                    function fade(opa) {
                       return function(g, i) {
                         svg.selectAll(".ribbons path")
-                            .filter(function(d) { return d.source.index != i && d.target.index != i; })
+                            .filter(function(d) {return d.source.index != i && d.target.index != i; })
                             .transition()
-                            .style("opacity", opacity);
+                            .style("opacity", opa);
                       };
                     }
+
                 }
 
 

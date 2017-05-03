@@ -25,13 +25,28 @@
     </div>
     <h1>Dessine moi une donnée</h1>
     <h2>Traitement de données de mastodon.etalab.gouv.fr</h2>
-<p>quelques essais de traitement des <a href="https://gist.github.com/cquest/bbf1f88f305564fe80a47d7951255eb1#file-domaines-csv" target="_blank">données d'inscription</a> sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Les trois premiers se mettent à jour directement à partir des données en ligne.</p>
+<p>quelques essais de traitement des données publiées concernant l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>.</p>
+<h3>Qui sont les <a href="./mastalab/index.html">habitants de l'instance</a> ?</h3>
 <ul>
-    <li><a href="./mastalab/index.html" target="_blank">graphe hierarchique circulaire</a></li>
-    <li><a href="./mastalab/chord.html" target="_blank">diagramme d'accords</a></li>
-    <li><a href="./mastalab/sankey.html" target="_blank">diagramme de Sankey</a> (mais j'ai du rangement à faire ;-)</li>
-    <li><a href="./mastalab/bubble.html" target="_blank">diagramme en bulles</a></li>
+    <li><a href="./mastalab/index.html">graphe hierarchique circulaire</a></li>
+    <li><a href="./mastalab/chord.html">diagramme d'accords</a></li>
+    <li><a href="./mastalab/sankey.html">diagramme de Sankey</a> (mais j'ai du rangement à faire ;-)</li>
+    <li><a href="./mastalab/bubble.html">diagramme en bulles</a> (ne se met pas à jour seule pour l'instant)</li>
 </ul>
+<h3><a href="./mastalab/QuiSuitQui/index.html">Qui suit qui</a> sur l'instance ?</h3>
+<ul>
+    <li><a href="./mastalab/QuiSuitQui/index.html">diagramme d'accords</a></li>
+    <li><a href="./mastalab/QuiSuitQui/sankey.html">diagramme de Sankey</a></li>
+</ul>
+
+<h4>Sources et crédits</h4>
+<p>Bricolé à partir du travail de M. Bostock avec l'aide de d3.js. Les pages sont à peu près propre grâce à normalize et font-awesome.</p>
+<p>Les données sont aimablement mise à disposition par le gentil administrateur de l'instance :
+<ul>
+    <li><a href="https://gist.github.com/cquest/bbf1f88f305564fe80a47d7951255eb1" target="_blank">les habitants</a></li>
+    <li><a href="https://gist.github.com/cquest/e5bd4e4e6a315e656cb15748f1fadf2d" target="_blank">qui suit qui</a></li>
+</ul></p>
+
 
 <script>
     var page = window.location.hostname;
