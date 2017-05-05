@@ -2,51 +2,22 @@
 <html>
 
 <head>
-<meta charset="UTF-8">
-<title>Diagramme hierarchique circulaire de mastodon.etalab.gouv.fr</title>
-<meta charset="utf-8">
-<meta name="HandheldFriendly" content="True">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"/>
-<link rel="stylesheet" href="../lib/normalize-min.css" media="all" type="text/css" />
-<link rel="stylesheet" href="../lib/font-awesome-min.css" media="all" type="text/css" />
-<link rel="stylesheet" href="../css/styles.css" media="all" type="text/css" />
+    <meta charset="UTF-8">
+    <title>Diagramme hierarchique circulaire de mastodon.etalab.gouv.fr</title>
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet" />
+    <link rel="stylesheet" href="../lib/normalize-min.css" media="all" type="text/css" />
+    <link rel="stylesheet" href="../lib/font-awesome-min.css" media="all" type="text/css" />
+    <link rel="stylesheet" href="../css/styles.css" media="all" type="text/css" />
 
-<script src="../lib/d3.v4.min.js"></script>
-<style>
-.node circle {
-  fill: #5a5;
-  fill-opacity: 0.6;
-  stroke: #ddd;
-  stroke-opacity: 0.4;
-}
+    <script src="../lib/d3.v4.min.js"></script>
+    <script src="../lib/dimple.v2.3.0.min.js"></script>
 
-.node text {
-  font: 12px Noto Sans;
-}
-
-.node--internal circle {
-  fill: #844;
-  fill-opacity: 0.4;
-  stroke: #555;
-  stroke-opacity: 0.6;
-}
-
-.node--internal text {
-  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
-}
-
-.link {
-  fill: none;
-  stroke: #555;
-  stroke-opacity: 0.4;
-  stroke-width: 1.5px;
-}
-
-.fr circle {fill:#44a}
-.fr\.gouv circle {fill:#d44}
-.fr\.ac circle {fill:#a4a}
-</style>
+    <style>
+        path[id*="-x"] {display: none}
+    </style>
 
 </head>
 
@@ -58,114 +29,119 @@
                 <a class="fa fa-home button" href="../" title="accueil"></a>
             </nav>
         </div>
-    <h1>Qui sont etalab.gouv.fr?</h1>
-<p>quelques essais de traitement des <a href="https://gist.github.com/cquest/bbf1f88f305564fe80a47d7951255eb1#file-domaines-csv" target="_blank">données d'inscription</a> sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Ici un graphe hierarchique circulaire. Voir aussi les <a href="../index.html">autres versions</a>.</p>
-<svg width="900" height="1150"></svg>
+        <h1>Qui sont etalab.gouv.fr?</h1>
+        <p>quelques essais de traitement des <a href="https://gist.github.com/cquest/bbf1f88f305564fe80a47d7951255eb1#file-domaines-csv" target="_blank">données d'inscription</a> sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Ici un diagramme par anneaux concentriques. Voir aussi les <a href="../index.html">autres versions</a>.</p>
+        <div id="chart"></div>
 
-<script>
-var svg = d3.select("svg"),
-    width = +svg.attr("width"),
-    height = +svg.attr("height"),
-    g = svg.append("g").attr("transform", "translate(" + (width / 2 + 40) + "," + (height / 2 + 90) + ")");
+        <script>
+            svg = dimple.newSvg("#chart", 1000, 1000);
 
-var stratify = d3.stratify()
-    .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
-
-var tree = d3.tree()
-    .size([360, 500])
-    .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; });
-
-    d3.csv("https://gist.githubusercontent.com/cquest/bbf1f88f305564fe80a47d7951255eb1/raw/e5832d9ede04ea278cfe100cb88e39bf663738b5/domaines.csv", function(error, data) {
-        if (error) {
-            console.log("maybe offline ? trying local cached data");
-            d3.csv("./data/mastodon.etalab.csv", function(er, da) {
-                if (er) throw er;
-                createCircleTree(da);
+            d3.csv("https://gist.githubusercontent.com/cquest/bbf1f88f305564fe80a47d7951255eb1/raw/e5832d9ede04ea278cfe100cb88e39bf663738b5/domaines.csv", function(error, data) {
+                if (error) {
+                    console.log("maybe offline ? trying local cached data");
+                    d3.csv("./data/mastodon.etalab.csv", function(er, da) {
+                        if (er) throw er;
+                        createCircleTree(da);
+                    });
+                } else createCircleTree(data);
             });
-        }
-        else createCircleTree(data);
-    });
 
-function createCircleTree(data) {
-    var Read = [];
-    for (var d in data) {
-        if(data[d].domaine) {
-            // correction du domaine pour les ac-xxxx
-            var dom = data[d].domaine.replace(/(ac)-([-\w]*)\.fr/g, "$2.$1.fr");
-            // explosion du domaine
-            var Id = dom.split(".");
-            // ajout des informations de décompte et hierarchiques
-            var i = "";
-            for (var s = Id.length - 1; s >= 0 ; s--) {
-                i += Id[s];
-                if(Read[i]) Read[i] += 1 * data[d].nb;
-                else Read[i] = 1 * data[d].nb;
-                i += ".";
+            function createCircleTree(data) {
+                var Read = [];
+                for (var d in data) {
+                    if (data[d].domaine) {
+                        // correction du domaine pour les ac-xxxx
+                        var dom = data[d].domaine.replace(/(ac)-([-\w]*)\.fr/g, "$2.$1.fr");
+                        // explosion du domaine
+                        var Id = dom.split(".");
+                        // complète le tableau pour avoir 4 niveaux
+                        for(var i = Id.length; i<4; i++) Id.unshift("x");
+                        // ajoute la valeur
+                        Id.push(data[d].nb);
+                        // ajout des informations de décompte et hierarchiques
+                        Read.push(Id);
+                    }
+                }
+                // mise en forme de la donnée
+                var imports = [];
+                for (var r in Read) {
+                    var line = {
+                        "name": Read[r][0]
+                    };
+                    var niv = 0,
+                        cumul = "";
+                    for (var s = Read[r].length - 2; s >= 0; s--) {
+                        line["cat"] = cumul;
+                        cumul += Read[r][s];
+                        line["niv" + niv] = cumul;
+                        line["count"] = Read[r][Read[r].length - 1];
+                        niv++;
+                        cumul += "-";
+                    }
+                    for (var n = niv+1; n < 4; n++) {
+                        line["niv" + n] = cumul + "x";
+                    }
+                    imports.push(line);
+                }
+                //console.log(JSON.stringify(imports));
+                var myChart = new dimple.chart(svg, imports);
+                myChart.setBounds(50, 0, 950, 950);
+                var myAxis = myChart.addMeasureAxis("p","count");
+                var innerRing = myChart.addSeries("niv0", dimple.plot.pie);
+                innerRing.getTooltipText = function (e) {return [e.key.replace("____","") + " : " + e.p]};
+                innerRing.tooltipFontSize = "14px";
+                var outerRing1 = myChart.addSeries("niv1", dimple.plot.pie);
+                outerRing1.getTooltipText = function (e) {console.log(e);return [e.key.replace("____","") + " : " + e.p]};
+                outerRing1.tooltipFontSize = "14px";
+                outerRing1.addOrderRule("cat");
+                var outerRing2 = myChart.addSeries("niv2", dimple.plot.pie)
+                outerRing2.getTooltipText = function (e) {console.log(e.key);return [e.key.replace("____","") + " : " + e.p]};
+                outerRing2.tooltipFontSize = "14px";
+                outerRing2.addOrderRule("cat");
+                var outerRing3 = myChart.addSeries("niv3", dimple.plot.pie)
+                outerRing3.getTooltipText = function (e) {console.log(e.key);return [e.key.replace("____","") + " : " + e.p]};
+                outerRing3.tooltipFontSize = "14px";
+                outerRing3.addOrderRule("cat");
+                myChart.addSeries("cat");
+                myChart.addColorAxis("cat");
+                // Negatives are calculated from outside edge, positives from center
+                outerRing3.outerRadius = "465";
+                outerRing3.innerRadius = "400";
+                outerRing2.outerRadius = "395";
+                outerRing2.innerRadius = "305";
+                outerRing1.outerRadius = "300";
+                outerRing1.innerRadius = "175";
+                innerRing.outerRadius = "170";
+                innerRing.innerRadius = "0";
+                console.log(180/Math.sqrt(2)/2);
+                //myChart.addLegend(500, 20, 90, 300, "left");
+                myChart.draw();
             }
+        </script>
+    </div>
+
+    <script>
+        var page = window.location.hostname;
+        if (navigator.doNotTrack != 1) {
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('set', 'page', page);
+            ga('set', 'title', document.title);
+            ga('create', 'UA-109815-12', page);
+            ga('send', 'pageview');
         }
-    }
-    // mise en forme de la donnée
-    var imports = [];
-    for (var r in Read) {
-        var line = {
-            "id": r,
-            "value": Read[r]
-        };
-        imports.push(line);
-    }
-
-  var root = tree(stratify(imports));
-
-  var link = g.selectAll(".link")
-    .data(root.descendants().slice(1))
-    .enter().append("path")
-      .attr("class", "link")
-      .attr("d", function(d) {
-        return "M" + project(d.x, d.y)
-            + "C" + project(d.x, (d.y + d.parent.y) / 2)
-            + " " + project(d.parent.x, (d.y + d.parent.y) / 2)
-            + " " + project(d.parent.x, d.parent.y);
-      });
-
-  var node = g.selectAll(".node")
-    .data(root.descendants())
-    .enter().append("g")
-      .attr("class", function(d) { return "node" + " " +  + " " + (d.children ? " node--internal "+d.id : " node--leaf"); })
-      .attr("transform", function(d) { return "translate(" + project(d.x, d.y) + ")"; });
-
-  node.append("circle")
-      .attr("r", function(d) {return 2*Math.sqrt(d.data.value);});
-
-  node.append("text")
-      .attr("dy", ".31em")
-      .attr("x", function(d) { return d.x < 180 === !d.children ? 6 : -6; })
-      .style("text-anchor", function(d) { return d.x < 180 === !d.children ? "start" : "end"; })
-      .attr("transform", function(d) { return "rotate(" + (d.x < 180 ? d.x - 90 : d.x + 90) + ")"; })
-      .text(function(d) { return d.id.substring(d.id.lastIndexOf(".") + 1); });
-}
-
-function project(x, y) {
-  var angle = (x - 90) / 180 * Math.PI, radius = y;
-  return [radius * Math.cos(angle), radius * Math.sin(angle)];
-}
-
-</script>
-</div>
-
-<script>
-var page = window.location.hostname;
-if(navigator.doNotTrack != 1) {
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('set', 'page', page);
-      ga('set', 'title', document.title);
-      ga('create', 'UA-109815-12', page);
-      ga('send', 'pageview');
-}
-</script>
+    </script>
 
 </body>
+
 </html>

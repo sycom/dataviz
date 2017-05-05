@@ -27,17 +27,18 @@
     <h2>Traitement de données de mastodon.etalab.gouv.fr</h2>
 <p>quelques essais de traitement des données publiées concernant l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>.</p>
 <h3>Qui sont les <a href="./mastalab/index.html">habitants de l'instance</a> ?</h3>
-<ul>
-    <li><a href="./mastalab/index.html">graphe hierarchique circulaire</a></li>
-    <li><a href="./mastalab/chord.html">diagramme d'accords</a></li>
-    <li><a href="./mastalab/sankey.html">diagramme de Sankey</a> (mais j'ai du rangement à faire ;-)</li>
-    <li><a href="./mastalab/bubble.html">diagramme en bulles</a> (ne se met pas à jour seule pour l'instant)</li>
-</ul>
+<div class="row">
+    <div class="col"><a href="./mastalab/index.html"><h4>diagramme en anneaux concentriques</h4><img src="./mastalab/img/visu-anneaux.png" title="diagramme par anneaux concentrique"/></a></div>
+    <div class="col"><a href="./mastalab/circulaire.html"><h4>graphe hierarchique circulaire</h4></a><img src="./mastalab/img/visu-hierach-cercle.png" title="graphe hierarchique circulaire"/></div>
+    <!--<div class="col"><a href="./mastalab/chord.html"><h4>diagramme d'accords</h4><img src="./mastalab/img/visu-chord.png" title="diagramme d'accords"/></a></div>-->
+    <div class="col"><a href="./mastalab/sankey.html"><h4>diagramme de Sankey</h4><img src="./mastalab/img/visu-sankey.png" title="diagramme de Sankey"/></a></div>
+    <div class="col"><a href="./mastalab/bubble.html"><h4>diagramme en bulles</h4><img src="./mastalab/img/visu-bulles.png" title="diagramme en bulles"/></a></div>
+</div>
 <h3><a href="./mastalab/QuiSuitQui/index.html">Qui suit qui</a> sur l'instance ?</h3>
-<ul>
-    <li><a href="./mastalab/QuiSuitQui/index.html">diagramme d'accords</a></li>
-    <li><a href="./mastalab/QuiSuitQui/sankey.html">diagramme de Sankey</a></li>
-</ul>
+<div class="row">
+    <div class="col"><a href="./mastalab/QuiSuitQui/index.html"><h4>diagramme d'accords</h4><img src="./mastalab/img/visu-chord-qsq.png" title="diagramme d'accords"/></a></div>
+    <div class="col"><a href="./mastalab/QuiSuitQui/sankey.html"><h4>diagramme de Sankey</h4><img src="./mastalab/img/visu-sankey-qsq.png" title="diagramme de Sankey"/></a></div>
+</div>
 
 <h4>Sources et crédits</h4>
 <p>Bricolé à partir du travail de M. Bostock avec l'aide de d3.js. Les pages sont à peu près propre grâce à normalize et font-awesome.</p>
