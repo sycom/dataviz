@@ -18,6 +18,7 @@ Hand coded with some libraries support :
 * [d3][d3] *3.?.?* et *4.8.0*
     * d3-sankey plugin
     * les [exemples][blocks] fournis par Mike Bostock
+* la librairie [dimple][dimple] pour quelques examples
 
 Données :
 * [habitants du mastalab][habitants]
@@ -39,4 +40,5 @@ Données :
 [habitants]:https://gist.github.com/cquest/bbf1f88f305564fe80a47d7951255eb1
 [quisuit]:https://gist.github.com/cquest/e5bd4e4e6a315e656cb15748f1fadf2d
 [d3]:https://d3js.org
-[blocks]:https://bl.ocks.org/
+[blocks]:https://bl.ocks.org
+[dimple]:http://dimplejs.org
