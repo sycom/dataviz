@@ -18,7 +18,6 @@
     <style>
         path[id*="-x"] {display: none}
     </style>
-
 </head>
 
 <body>
@@ -31,10 +30,12 @@
         </div>
         <h1>Qui sont etalab.gouv.fr?</h1>
         <p>quelques essais de traitement des <a href="https://gist.github.com/cquest/bbf1f88f305564fe80a47d7951255eb1#file-domaines-csv" target="_blank">données d'inscription</a> sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Ici un diagramme par anneaux concentriques. Voir aussi les <a href="../index.html">autres versions</a>.</p>
-        <div id="chart"></div>
+        <div id="graphe"></div>
 
         <script>
-            svg = dimple.newSvg("#chart", 1000, 1000);
+        var width = document.getElementById("graphe").clientWidth,
+            height = width,
+            svg = dimple.newSvg("#graphe", width, height);
 
             d3.csv("https://gist.githubusercontent.com/cquest/bbf1f88f305564fe80a47d7951255eb1/raw/e5832d9ede04ea278cfe100cb88e39bf663738b5/domaines.csv", function(error, data) {
                 if (error) {
@@ -85,7 +86,7 @@
                 }
                 //console.log(JSON.stringify(imports));
                 var myChart = new dimple.chart(svg, imports);
-                myChart.setBounds(50, 0, 950, 950);
+                myChart.setBounds(50, 0, width-20, height);
                 var myAxis = myChart.addMeasureAxis("p","count");
                 var innerRing = myChart.addSeries("niv0", dimple.plot.pie);
                 innerRing.getTooltipText = function (e) {return [e.key.replace("____","") + " : " + e.p]};
@@ -105,13 +106,14 @@
                 myChart.addSeries("cat");
                 myChart.addColorAxis("cat");
                 // Negatives are calculated from outside edge, positives from center
-                outerRing3.outerRadius = "465";
-                outerRing3.innerRadius = "400";
-                outerRing2.outerRadius = "395";
-                outerRing2.innerRadius = "305";
-                outerRing1.outerRadius = "300";
-                outerRing1.innerRadius = "175";
-                innerRing.outerRadius = "170";
+                var r1 = (width - 20) / (3 + 3 * Math.sqrt(2));
+                outerRing3.outerRadius = 15 + 2 * Math.sqrt(2) * r1;
+                outerRing3.innerRadius = 15 + 2 * r1;
+                outerRing2.outerRadius = 10 + 2 * r1;
+                outerRing2.innerRadius = 10 + Math.sqrt(2) * r1;
+                outerRing1.outerRadius = 5 + Math.sqrt(2) * r1;
+                outerRing1.innerRadius = r1 + 5;
+                innerRing.outerRadius = r1
                 innerRing.innerRadius = "0";
                 console.log(180/Math.sqrt(2)/2);
                 //myChart.addLegend(500, 20, 90, 300, "left");

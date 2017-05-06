@@ -19,8 +19,9 @@ h1 {text-align:center}
 .fa-stack {margin:0}
 
 .row {text-align:center;vertical-align:top;}
-.col {max-height:250px; overflow:hidden;padding:5px .5em .5em .5em;margin:.5%}
-.col, .col img {width:100%;}
+.col {max-height:250px;overflow:hidden;border-bottom:solid .75em white;padding:5px .5em 1em .5em;margin:.5%}
+.col, .col img {width:100%}
+.col h4 {margin:.25em 0 .5em 0}
 
 
 /*****************/
