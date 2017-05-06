@@ -35,11 +35,11 @@
                 <a class="fa fa-home button" href="../../" title="accueil"></a>
             </nav>
         </div>
-        <h1>Qui sont etalab.gouv.fr?</h1>
+        <h1>Qui suit qui sur etalab.gouv.fr?</h1>
         <p>Diagramme d'accords montrant qui suit qui sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Mis à jour automatiquement à partir des <a href="https://gist.github.com/cquest/e5bd4e4e6a315e656cb15748f1fadf2d" target="_blank">données sur gist</a>. Cette fois, la représentation est adaptée à la donnée, même si il faudrait synthétiser un peu. On y voit plus clair en survolant l'anneau, mais il faut être patient, il y a beaucoup de liens...</p>
 
         <div id="graphe">
-            <svg width="1000" height="1200"></svg>
+            <svg></svg>
             <script>
                 /* traitement des données directement issues de etalab.gouv.fr */
                 d3.csv("https://gist.githubusercontent.com/cquest/e5bd4e4e6a315e656cb15748f1fadf2d/raw/da5b869cdbc878bfdcf573f7d5f49244c2bf0816/follow.csv", function(error, data) {
@@ -105,11 +105,13 @@
                     //console.log(matrice);
 
                     /* adapté de https://bl.ocks.org/mbostock/4062006 */
-                    var svg = d3.select("svg"),
-                        width = +svg.attr("width") - 150,
-                        height = +svg.attr("height") - 50,
-                        outerRadius = Math.min(width, height) * 0.5 - 40,
-                        innerRadius = outerRadius - 30;
+                    var svg = d3.select("svg");
+                    svg.attr("width",document.getElementById("graphe").clientWidth);
+                    svg.attr("height",svg.attr("width")*1.1);
+                    var width = +svg.attr("width"),
+                    height = +svg.attr("height"),
+                    outerRadius = Math.min(width, height) * 0.38,
+                    innerRadius = outerRadius - 30;
 
                     var formatValue = d3.formatPrefix(",.0", 1e3);
 
@@ -127,7 +129,7 @@
                     var color = d3.scaleOrdinal(d3.schemeCategory20);
 
                     var g = svg.append("g")
-                        .attr("transform", "translate(" + (width / 2 + 50) + "," + height / 2 + ")")
+                        .attr("transform", "translate(" + width * 0.5 + "," + height * 0.5 + ")")
                         .datum(chord(matrice));
 
                     var group = g.append("g")
