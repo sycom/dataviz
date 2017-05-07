@@ -41,7 +41,8 @@
         <p>graphe de force montrant qui suit qui sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Mis à jour automatiquement à partir des <a href="https://gist.github.com/cquest/e5bd4e4e6a315e656cb15748f1fadf2d" target="_blank">données sur gist</a>. Les noms apparaissent au survol. Un click permet d'isoler les domaines pointant sur le noeud cliqué.</p>
 
         <div id="graphe" width="100%">
-            <svg width="960" height="600"></svg>
+            <svg></svg>
+        </div>
             <script>
                 /* traitement des données directement issues de etalab.gouv.fr */
                 d3.csv("https://gist.githubusercontent.com/cquest/e5bd4e4e6a315e656cb15748f1fadf2d/raw/da5b869cdbc878bfdcf573f7d5f49244c2bf0816/follow.csv", function(error, data) {
@@ -144,15 +145,15 @@ Groups = {"ac-":"education","recherche":"enseignementsup",
 
                     /* adapté de https://bl.ocks.org/mbostock/4600693 */
     var svg = d3.select("svg");
-    svg.attr("width",document.getElementById("graphe").clientWidth);
-    svg.attr("height",svg.attr("width")*2/3);
-    var width = +svg.attr("width"),
-    height = +svg.attr("height");
+    var width = document.getElementById("graphe").clientWidth,
+        height = width * 2 / 3;
+    svg.attr("width",width)
+        .attr("height",height);
 
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 
 var simulation = d3.forceSimulation()
-    .force("link", d3.forceLink().distance(height/2).strength(1))
+    .force("link", d3.forceLink().distance(height/2).strength(2))
     .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(width / 2, height / 2));
 
@@ -257,10 +258,17 @@ function dragended(d) {
   if (!d3.event.active) simulation.alphaTarget(0);
   d.fx = null, d.fy = null;
 }
+
+svg.call(d3.zoom()
+    .scaleExtent([1 / 2, 4])
+    .on("zoom", zoomed));
+
+function zoomed() {
+ svg.attr("transform", d3.event.transform);
+}
                 }
 
             </script>
-        </div>
 
     <h2>Remarque</h2>
     <p>Les couleurs sont attribuées par groupe "homogène". Compte-tenu de la disparité des noms de domaines, les regroupements automatiques peuvent ne pas fonctionner. Un essai de meilleur regroupement est en cours en utilisant la matrice suivante :
