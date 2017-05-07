@@ -60,11 +60,15 @@
         </div>
     <h1>Qui sont etalab.gouv.fr?</h1>
 <p>quelques essais de traitement des <a href="https://gist.github.com/cquest/bbf1f88f305564fe80a47d7951255eb1#file-domaines-csv" target="_blank">données d'inscription</a> sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Ici un diagramme en bulles. Voir aussi les <a href="../index.html">autres versions</a>.</p>
-<svg width="1000" height="900" text-anchor="middle"></svg>
+<div id="graphe">
+    <svg  text-anchor="middle"></svg>
+</div>
 
 <script>
-var svg = d3.select("svg"),
-    width = +svg.attr("width"),
+var svg = d3.select("svg");
+svg.attr("width",document.getElementById("graphe").clientWidth);
+svg.attr("height",svg.attr("width")*1.1);
+var width = +svg.attr("width"),
     height = +svg.attr("height");
 
 var format = d3.format(",d");

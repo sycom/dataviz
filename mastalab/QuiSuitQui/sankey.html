@@ -15,9 +15,7 @@
 <script src="../../lib/d3.v4.min.js"></script>
 <script src="../../lib/d3-sankey.min.js"></script>
 <style>
-#chart {
-    height: 500px;
-  }
+
 
   .node rect {
     cursor: move;
@@ -53,16 +51,14 @@
         </div>
     <h1>Qui suit qui sur etalab.gouv.fr?</h1>
 <p>Diagramme de Sankey montrant qui suit qui sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Mis à jour automatiquement à partir des <a href="https://gist.github.com/cquest/e5bd4e4e6a315e656cb15748f1fadf2d" target="_blank">données sur gist</a>.</p>
-<div id="chart"></div>
+<div id="graphe"></div>
   <script>
     var margin = {
         top: 1,
         right: 1,
         bottom: 6,
         left: 1
-      },
-      width = 960 - margin.left - margin.right,
-      height = 2000 - margin.top - margin.bottom;
+      };
 
     var formatNumber = d3.format(",.0f"),
       format = function(d) {
@@ -70,15 +66,12 @@
       },
       color = d3.scaleOrdinal(d3.schemeCategory20);
 
-    var svg = d3.select("#chart").append("svg")
-      .attr("width", width + margin.left + margin.right)
-      .attr("height", height + margin.top + margin.bottom)
-      .append("g")
-      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-
-
-
+      var svg = d3.select("#graphe").append("svg"),
+          width = document.getElementById("graphe").clientWidth,
+          height = 4000;
+          svg.attr("width", width - margin.left + margin.right)
+        .attr("height", height)
+        .append("g");
 
     var sankey = d3.sankey()
       .nodeWidth(15)

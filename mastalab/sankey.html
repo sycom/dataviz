@@ -15,10 +15,6 @@
 <script src="../lib/d3.v4.min.js"></script>
 <script src="../lib/d3-sankey.min.js"></script>
 <style>
-#chart {
-    height: 500px;
-  }
-
   .node rect {
     cursor: move;
     fill-opacity: .9;
@@ -53,16 +49,14 @@
         </div>
     <h1>Qui sont etalab.gouv.fr?</h1>
 <p>quelques essais de traitement des <a href="https://gist.github.com/cquest/bbf1f88f305564fe80a47d7951255eb1#file-domaines-csv" target="_blank">données d'inscription</a> sur l'instance mastodon <i>https://mastodon.etalab.gouv.fr</i>. Ici un diagramme de Sankey. Voir aussi les <a href="../index.html">autres versions</a>.</p>
-<div id="chart"></div>
+<div id="graphe"></div>
   <script>
     var margin = {
         top: 1,
-        right: 1,
+        right: 15,
         bottom: 6,
-        left: 1
-      },
-      width = 960 - margin.left - margin.right,
-      height = 2000 - margin.top - margin.bottom;
+        left: 0
+    };
 
     var formatNumber = d3.format(",.0f"),
       format = function(d) {
@@ -70,11 +64,13 @@
       },
       color = d3.scaleOrdinal(d3.schemeCategory20);
 
-    var svg = d3.select("#chart").append("svg")
-      .attr("width", width + margin.left + margin.right)
-      .attr("height", height + margin.top + margin.bottom)
-      .append("g")
-      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    var svg = d3.select("#graphe").append("svg"),
+        width = document.getElementById("graphe").clientWidth,
+        height = 2000;
+        svg.attr("width", width - margin.left + margin.right)
+      .attr("height", height)
+      .append("g");
+      //.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     var sankey = d3.sankey()
       .nodeWidth(15)
@@ -147,7 +143,7 @@ function createSankey(data) {
     sankey
         .nodes(mastalab.nodes)
         .links(mastalab.links)
-        .layout(32);
+        .layout(40);
 
       var link = svg.append("g").selectAll(".link")
         .data(mastalab.links)

@@ -40,7 +40,7 @@
         <p id="resultat"></p>
 
         <div id="graphe">
-            <svg width="1000" height="1000"></svg>
+            <svg></svg>
             <script>
                 /* traitement des données directement issues de etalab.gouv.fr */
                 d3.csv("https://gist.githubusercontent.com/cquest/bbf1f88f305564fe80a47d7951255eb1/raw/e5832d9ede04ea278cfe100cb88e39bf663738b5/domaines.csv", function(error, data) {
@@ -102,10 +102,12 @@
                     //console.log(matrice);
 
                     /* adapté de https://bl.ocks.org/mbostock/4062006 */
-                    var svg = d3.select("svg"),
-                        width = +svg.attr("width")-100,
-                        height = +svg.attr("height")-100,
-                        outerRadius = Math.min(width, height) * 0.5 - 40,
+                    var svg = d3.select("svg");
+                        svg.attr("width",document.getElementById("graphe").clientWidth);
+                        svg.attr("height",svg.attr("width")*1.1);
+                        var width = +svg.attr("width"),
+                        height = +svg.attr("height"),
+                        outerRadius = Math.min(width, height) * 0.38,
                         innerRadius = outerRadius - 30;
 
                     var formatValue = d3.formatPrefix(",.0", 1e3);
@@ -124,7 +126,7 @@
                     var color = d3.scaleOrdinal(d3.schemeCategory20);
 
                     var g = svg.append("g")
-                        .attr("transform", "translate(" + (width / 2 +50) + "," + height / 2 + ")")
+                        .attr("transform", "translate(" + (width * 0.5) + "," + height * 0.5 + ")")
                         .datum(chord(matrice));
 
                     var group = g.append("g")
