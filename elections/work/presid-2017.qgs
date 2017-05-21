@@ -324,7 +324,7 @@
       <ComposerLabel valign="128" marginX="1" marginY="1" labelText="données ministère de l'intérieur, fonds carto Open Street Map | réalisation S. Comte mai 2017 - CC by sa" htmlState="0" halign="1">
         <LabelFont description="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="414.963" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="5.43573" y="414.963" visibility="1" zValue="28" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="281.048" outlineWidth="0.3" excludeFromExports="0" uuid="{23245aa5-c1f3-499c-89f3-1392e4b763f5}" height="5.03654" itemRotation="0" frame="false" pagex="5.43573">
+        <ComposerItem pagey="414.963" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="5.43573" y="414.963" visibility="1" zValue="27" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="281.048" outlineWidth="0.3" excludeFromExports="0" uuid="{23245aa5-c1f3-499c-89f3-1392e4b763f5}" height="5.03654" itemRotation="0" frame="false" pagex="5.43573">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -333,7 +333,7 @@
       <ComposerLabel valign="128" marginX="2" marginY="1" labelText="... Abst. blancs et nuls (25 env.)" htmlState="0" halign="2">
         <LabelFont description="Open Sans,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="324.964" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="207.835" y="324.964" visibility="1" zValue="27" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="81.9456" outlineWidth="0.3" excludeFromExports="0" uuid="{eb801f91-ae60-42ed-ac35-179637dfcdd5}" height="9.44671" itemRotation="0" frame="false" pagex="207.835">
+        <ComposerItem pagey="324.964" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="207.835" y="324.964" visibility="1" zValue="26" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="81.9456" outlineWidth="0.3" excludeFromExports="0" uuid="{eb801f91-ae60-42ed-ac35-179637dfcdd5}" height="9.44671" itemRotation="0" frame="false" pagex="207.835">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="107" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -342,7 +342,7 @@
       <ComposerLabel valign="128" marginX="2" marginY="1" labelText="... Jacques Cheminade (0,18)" htmlState="0" halign="4">
         <LabelFont description="Open Sans,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="324.964" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="107.08" y="324.964" visibility="1" zValue="26" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{ee2bba75-ea1a-41ad-9fc9-653be941c6a6}" height="9.44671" itemRotation="0" frame="false" pagex="107.08">
+        <ComposerItem pagey="324.964" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="107.08" y="324.964" visibility="1" zValue="25" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{ee2bba75-ea1a-41ad-9fc9-653be941c6a6}" height="9.44671" itemRotation="0" frame="false" pagex="107.08">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="107" red="0" blue="189" green="75"/>
           <customproperties/>
@@ -351,7 +351,7 @@
       <ComposerLabel valign="128" marginX="2" marginY="1" labelText="... Nathalie Arthaud (0,64)" htmlState="0" halign="1">
         <LabelFont description="Open Sans,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="324.964" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="7.21974" y="324.964" visibility="1" zValue="25" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{1ce7a0bf-a957-4189-8ce9-88aec8855a39}" height="9.44671" itemRotation="0" frame="false" pagex="7.21974">
+        <ComposerItem pagey="324.964" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="7.21974" y="324.964" visibility="1" zValue="24" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{1ce7a0bf-a957-4189-8ce9-88aec8855a39}" height="9.44671" itemRotation="0" frame="false" pagex="7.21974">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="106" red="220" blue="34" green="59"/>
           <customproperties/>
@@ -360,7 +360,7 @@
       <ComposerLabel valign="128" marginX="2" marginY="1" labelText="... François Asselineau (0,92)" htmlState="0" halign="2">
         <LabelFont description="Open Sans,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="227.138" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="207.006" y="227.138" visibility="1" zValue="24" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="81.9456" outlineWidth="0.3" excludeFromExports="0" uuid="{05a13061-c85c-4022-b465-01e8980ad0aa}" height="9.44671" itemRotation="0" frame="false" pagex="207.006">
+        <ComposerItem pagey="227.138" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="207.006" y="227.138" visibility="1" zValue="23" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="81.9456" outlineWidth="0.3" excludeFromExports="0" uuid="{05a13061-c85c-4022-b465-01e8980ad0aa}" height="9.44671" itemRotation="0" frame="false" pagex="207.006">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="107" red="77" blue="255" green="200"/>
           <customproperties/>
@@ -369,7 +369,7 @@
       <ComposerLabel valign="128" marginX="2" marginY="1" labelText="... Philippe Poutou (1,09)" htmlState="0" halign="4">
         <LabelFont description="Open Sans,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="227.138" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="106.251" y="227.138" visibility="1" zValue="23" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{41e4d820-7821-4288-b29c-df1d73d0ef3b}" height="9.44671" itemRotation="0" frame="false" pagex="106.251">
+        <ComposerItem pagey="227.138" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="106.251" y="227.138" visibility="1" zValue="22" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{41e4d820-7821-4288-b29c-df1d73d0ef3b}" height="9.44671" itemRotation="0" frame="false" pagex="106.251">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="108" red="220" blue="37" green="34"/>
           <customproperties/>
@@ -378,7 +378,7 @@
       <ComposerLabel valign="128" marginX="2" marginY="1" labelText="... Jean Lasalle (1,21)" htmlState="0" halign="1">
         <LabelFont description="Open Sans,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="227.138" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.39108" y="227.138" visibility="1" zValue="22" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{64d5e709-a3b0-4ba2-8bfa-1252631be74f}" height="9.44671" itemRotation="0" frame="false" pagex="6.39108">
+        <ComposerItem pagey="227.138" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.39108" y="227.138" visibility="1" zValue="21" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{64d5e709-a3b0-4ba2-8bfa-1252631be74f}" height="9.44671" itemRotation="0" frame="false" pagex="6.39108">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="106" red="162" blue="72" green="139"/>
           <customproperties/>
@@ -387,7 +387,7 @@
       <ComposerLabel valign="128" marginX="2" marginY="1" labelText="... Nicolas Dupont-Aignan (4,70)" htmlState="0" halign="2">
         <LabelFont description="Open Sans,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="129.469" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="207.404" y="129.469" visibility="1" zValue="21" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="81.9456" outlineWidth="0.3" excludeFromExports="0" uuid="{9be3e626-dc7a-4f81-a382-cca227b0156e}" height="9.44671" itemRotation="0" frame="false" pagex="207.404">
+        <ComposerItem pagey="129.469" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="207.404" y="129.469" visibility="1" zValue="20" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="81.9456" outlineWidth="0.3" excludeFromExports="0" uuid="{9be3e626-dc7a-4f81-a382-cca227b0156e}" height="9.44671" itemRotation="0" frame="false" pagex="207.404">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="107" red="187" blue="255" green="77"/>
           <customproperties/>
@@ -396,7 +396,7 @@
       <ComposerLabel valign="128" marginX="2" marginY="1" labelText="... Benoît Hamon (6,36)" htmlState="0" halign="4">
         <LabelFont description="Open Sans,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="129.469" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="106.649" y="129.469" visibility="1" zValue="20" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{36bca0b9-e1da-4f05-8fbf-24b0a2b1c57b}" height="9.44671" itemRotation="0" frame="false" pagex="106.649">
+        <ComposerItem pagey="129.469" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="106.649" y="129.469" visibility="1" zValue="19" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{36bca0b9-e1da-4f05-8fbf-24b0a2b1c57b}" height="9.44671" itemRotation="0" frame="false" pagex="106.649">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="106" red="58" blue="57" green="163"/>
           <customproperties/>
@@ -405,7 +405,7 @@
       <ComposerLabel valign="128" marginX="2" marginY="1" labelText="... Jean-Luc Mélanchon (19,58)" htmlState="0" halign="1">
         <LabelFont description="Open Sans,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="129.469" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.7893" y="129.469" visibility="1" zValue="19" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{537cf489-282f-41f4-9d29-f45dfd8817f2}" height="9.44671" itemRotation="0" frame="false" pagex="6.7893">
+        <ComposerItem pagey="129.469" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.7893" y="129.469" visibility="1" zValue="18" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{537cf489-282f-41f4-9d29-f45dfd8817f2}" height="9.44671" itemRotation="0" frame="false" pagex="6.7893">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="108" red="220" blue="145" green="104"/>
           <customproperties/>
@@ -414,7 +414,7 @@
       <ComposerLabel valign="128" marginX="2" marginY="1" labelText="... François Fillon (20,01)" htmlState="0" halign="2">
         <LabelFont description="Open Sans,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="31.1158" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="207.006" y="31.1158" visibility="1" zValue="18" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="81.9456" outlineWidth="0.3" excludeFromExports="0" uuid="{ae77cfcf-5e2f-4fef-98c0-86e0eae67346}" height="9.44671" itemRotation="0" frame="false" pagex="207.006">
+        <ComposerItem pagey="31.1158" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="207.006" y="31.1158" visibility="1" zValue="17" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="81.9456" outlineWidth="0.3" excludeFromExports="0" uuid="{ae77cfcf-5e2f-4fef-98c0-86e0eae67346}" height="9.44671" itemRotation="0" frame="false" pagex="207.006">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="107" red="45" blue="226" green="151"/>
           <customproperties/>
@@ -423,7 +423,7 @@
       <ComposerLabel valign="128" marginX="2" marginY="1" labelText="... Marine Le Pen (21,30)" htmlState="0" halign="4">
         <LabelFont description="Open Sans,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="31.1158" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="106.431" y="31.1158" visibility="1" zValue="17" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{915eb9e8-09d3-453c-bdd0-2a16f720a5db}" height="9.44671" itemRotation="0" frame="false" pagex="106.431">
+        <ComposerItem pagey="31.1158" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="106.431" y="31.1158" visibility="1" zValue="16" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{915eb9e8-09d3-453c-bdd0-2a16f720a5db}" height="9.44671" itemRotation="0" frame="false" pagex="106.431">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="106" red="137" blue="203" green="144"/>
           <customproperties/>
@@ -432,14 +432,14 @@
       <ComposerLabel valign="128" marginX="2" marginY="1" labelText="... Emmanuel Macron (24,01)" htmlState="0" halign="1">
         <LabelFont description="Open Sans,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="31.1158" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.57142" y="31.1158" visibility="1" zValue="16" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{7839a62d-0858-4075-ad3d-0813c3643336}" height="9.44671" itemRotation="0" frame="false" pagex="6.57142">
+        <ComposerItem pagey="31.1158" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.57142" y="31.1158" visibility="1" zValue="15" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{7839a62d-0858-4075-ad3d-0813c3643336}" height="9.44671" itemRotation="0" frame="false" pagex="6.57142">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="107" red="242" blue="148" green="200"/>
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="11" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="4609044.98653969913721085" xmin="-980311.47595823102165014" ymax="7092645.55622674524784088" xmax="1493109.42085038451477885"/>
+        <Extent ymin="4609044.98653969913721085" xmin="-980311.47595823102165014" ymax="7092645.67288132943212986" xmax="1493109.42085038451477885"/>
         <LayerSet>
           <Layer>classes20170520160505453</Layer>
           <Layer>Presid_2017_com20170520160421707</Layer>
@@ -1330,14 +1330,14 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="322.278" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="101.12" y="322.278" visibility="1" zValue="15" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{f0c3d8cf-0141-45b6-8f0d-b6a3f6c7bd11}" height="92.6856" itemRotation="0" frame="false" pagex="101.12">
+        <ComposerItem pagey="322.278" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="101.12" y="322.278" visibility="1" zValue="14" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{f0c3d8cf-0141-45b6-8f0d-b6a3f6c7bd11}" height="92.6856" itemRotation="0" frame="false" pagex="101.12">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="9" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="4609044.98653969913721085" xmin="-980311.47595823102165014" ymax="7092645.55622674338519573" xmax="1493109.42085038451477885"/>
+        <Extent ymin="4609044.98653969913721085" xmin="-980311.47595823102165014" ymax="7092645.67288132943212986" xmax="1493109.42085038451477885"/>
         <LayerSet>
           <Layer>classes20170520160505453</Layer>
           <Layer>Presid_2017_com20170520160421707</Layer>
@@ -2228,7 +2228,7 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="224.325" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="5.43573" y="224.325" visibility="1" zValue="14" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{e9c7d3c2-71b5-4a7c-9fe2-848fcee2adc1}" height="92.6856" itemRotation="0" frame="false" pagex="5.43573">
+        <ComposerItem pagey="224.325" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="5.43573" y="224.325" visibility="1" zValue="13" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{e9c7d3c2-71b5-4a7c-9fe2-848fcee2adc1}" height="92.6856" itemRotation="0" frame="false" pagex="5.43573">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -2237,7 +2237,7 @@ def my_form_open(dialog, layer, feature):
       <ComposerLabel valign="128" marginX="1" marginY="1" labelText="Pour chaque candidat la carte est établie sur la base de son score au premier tour, indépendamment du score des autres candidats. Les communes où le candidat a fait un score nul n'apparaissent pas. Entre parenthèse pour mémoire, le résultat en % des suffrages exprimés." htmlState="0" halign="4">
         <LabelFont description="Open Sans,12,-1,5,50,1,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="14.1675" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="5.11236" y="14.1675" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="286.049" outlineWidth="0.3" excludeFromExports="0" uuid="{0e85eaa3-97f8-4b0e-a991-0d212b0689c9}" height="13.0984" itemRotation="0" frame="false" pagex="5.11236">
+        <ComposerItem pagey="14.1675" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="5.11236" y="14.1675" visibility="1" zValue="12" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="286.049" outlineWidth="0.3" excludeFromExports="0" uuid="{0e85eaa3-97f8-4b0e-a991-0d212b0689c9}" height="13.0984" itemRotation="0" frame="false" pagex="5.11236">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -2246,14 +2246,14 @@ def my_form_open(dialog, layer, feature):
       <ComposerLabel valign="128" marginX="1" marginY="1" labelText="Présidentielle 2017 - La France de ..." htmlState="0" halign="4">
         <LabelFont description="Open Sans,16,-1,5,75,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="1.70537" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="59.5668" y="1.70537" visibility="1" zValue="12" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="175.774" outlineWidth="0.3" excludeFromExports="0" uuid="{94dcb706-bf66-40b7-bc2f-90ce5fffd438}" height="12.4622" itemRotation="0" frame="false" pagex="59.5668">
+        <ComposerItem pagey="1.70537" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="59.5668" y="1.70537" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="175.774" outlineWidth="0.3" excludeFromExports="0" uuid="{94dcb706-bf66-40b7-bc2f-90ce5fffd438}" height="12.4622" itemRotation="0" frame="false" pagex="59.5668">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="10" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="4609044.98653969913721085" xmin="-980311.47595823102165014" ymax="7092645.55622674338519573" xmax="1493109.42085038451477885"/>
+        <Extent ymin="4609044.98653969913721085" xmin="-980311.47595823102165014" ymax="7092645.67288132943212986" xmax="1493109.42085038451477885"/>
         <LayerSet>
           <Layer>classes20170520160505453</Layer>
           <Layer>Presid_2017_com20170520160421707</Layer>
@@ -3144,14 +3144,14 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="29.2987" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="198.796" y="29.2987" visibility="1" zValue="11" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{ab0464b7-b769-49c6-840c-6e5060b68059}" height="92.6856" itemRotation="0" frame="false" pagex="198.796">
+        <ComposerItem pagey="29.2987" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="198.796" y="29.2987" visibility="1" zValue="10" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{ab0464b7-b769-49c6-840c-6e5060b68059}" height="92.6856" itemRotation="0" frame="false" pagex="198.796">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="7" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="4609044.98653969913721085" xmin="-980311.47595823102165014" ymax="7092645.55622674431651831" xmax="1493109.42085038451477885"/>
+        <Extent ymin="4609044.98653969913721085" xmin="-980311.47595823102165014" ymax="7092645.67288132943212986" xmax="1493109.42085038451477885"/>
         <LayerSet>
           <Layer>classes20170520160505453</Layer>
           <Layer>Presid_2017_com20170520160421707</Layer>
@@ -4042,14 +4042,14 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="322.278" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="198.796" y="322.278" visibility="1" zValue="10" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{d4ed8176-ab31-4a8d-a8e3-7118dd7cbd15}" height="92.6856" itemRotation="0" frame="false" pagex="198.796">
+        <ComposerItem pagey="322.278" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="198.796" y="322.278" visibility="1" zValue="9" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{d4ed8176-ab31-4a8d-a8e3-7118dd7cbd15}" height="92.6856" itemRotation="0" frame="false" pagex="198.796">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="6" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="4609044.98653969913721085" xmin="-980311.47595823102165014" ymax="7092645.55622674338519573" xmax="1493109.42085038451477885"/>
+        <Extent ymin="4609044.98653969913721085" xmin="-980311.47595823102165014" ymax="7092645.67288132943212986" xmax="1493109.42085038451477885"/>
         <LayerSet>
           <Layer>classes20170520160505453</Layer>
           <Layer>Presid_2017_com20170520160421707</Layer>
@@ -4940,14 +4940,14 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="322.278" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="5.43573" y="322.278" visibility="1" zValue="9" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{ddb70faf-1740-4280-a78e-7ecf2c7b0abb}" height="92.6856" itemRotation="0" frame="false" pagex="5.43573">
+        <ComposerItem pagey="322.278" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="5.43573" y="322.278" visibility="1" zValue="8" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{ddb70faf-1740-4280-a78e-7ecf2c7b0abb}" height="92.6856" itemRotation="0" frame="false" pagex="5.43573">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="8" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="4614135.10576331429183483" xmin="-980311.47595823102165014" ymax="7087556.00257193110883236" xmax="1493109.42085038451477885"/>
+        <Extent ymin="4614135.10576331429183483" xmin="-980311.47595823102165014" ymax="7087556.00257192924618721" xmax="1493109.42085038451477885"/>
         <LayerSet>
           <Layer>classes20170520160505453</Layer>
           <Layer>Presid_2017_com20170520160421707</Layer>
@@ -5838,14 +5838,14 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="224.325" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="198.796" y="224.325" visibility="1" zValue="8" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{015bf563-a761-4c2a-ac21-62a8e80f2e02}" height="92.3057" itemRotation="0" frame="false" pagex="198.796">
+        <ComposerItem pagey="224.325" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="198.796" y="224.325" visibility="1" zValue="7" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{015bf563-a761-4c2a-ac21-62a8e80f2e02}" height="92.3057" itemRotation="0" frame="false" pagex="198.796">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="4" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="4609044.98653969913721085" xmin="-980311.47595823102165014" ymax="7092645.55622674338519573" xmax="1493109.42085038451477885"/>
+        <Extent ymin="4609044.98653969913721085" xmin="-980311.47595823102165014" ymax="7092645.67288132943212986" xmax="1493109.42085038451477885"/>
         <LayerSet>
           <Layer>classes20170520160505453</Layer>
           <Layer>Presid_2017_com20170520160421707</Layer>
@@ -6736,14 +6736,14 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="224.325" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="102.347" y="224.325" visibility="1" zValue="7" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{da7103fc-7aad-49b3-9615-f18f61b70625}" height="92.6856" itemRotation="0" frame="false" pagex="102.347">
+        <ComposerItem pagey="224.325" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="102.347" y="224.325" visibility="1" zValue="6" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{da7103fc-7aad-49b3-9615-f18f61b70625}" height="92.6856" itemRotation="0" frame="false" pagex="102.347">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="3" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="4609044.98653969913721085" xmin="-980311.47595823102165014" ymax="7092645.55622674338519573" xmax="1493109.42085038451477885"/>
+        <Extent ymin="4609044.98653969913721085" xmin="-980311.47595823102165014" ymax="7092645.67288132943212986" xmax="1493109.42085038451477885"/>
         <LayerSet>
           <Layer>classes20170520160505453</Layer>
           <Layer>Presid_2017_com20170520160421707</Layer>
@@ -7474,14 +7474,14 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="126.508" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="198.796" y="126.508" visibility="1" zValue="6" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{f0793493-fbbf-4b58-bb66-f0dd707af228}" height="92.6856" itemRotation="0" frame="false" pagex="198.796">
+        <ComposerItem pagey="126.508" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="198.796" y="126.508" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{f0793493-fbbf-4b58-bb66-f0dd707af228}" height="92.6856" itemRotation="0" frame="false" pagex="198.796">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="5" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="4614135.10576331429183483" xmin="-980311.47595823102165014" ymax="7087556.00257193017750978" xmax="1493109.42085038451477885"/>
+        <Extent ymin="4614135.10576331429183483" xmin="-980311.47595823102165014" ymax="7087556.00257192924618721" xmax="1493109.42085038451477885"/>
         <LayerSet>
           <Layer>classes20170520160505453</Layer>
           <Layer>Presid_2017_com20170520160421707</Layer>
@@ -8212,14 +8212,14 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="126.888" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="101.301" y="126.888" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{a416aeb5-0160-4550-a529-14f8ca244fc8}" height="92.3057" itemRotation="0" frame="false" pagex="101.301">
+        <ComposerItem pagey="126.888" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="101.301" y="126.888" visibility="1" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{a416aeb5-0160-4550-a529-14f8ca244fc8}" height="92.3057" itemRotation="0" frame="false" pagex="101.301">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="2" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="4609044.98653969913721085" xmin="-980311.47595823102165014" ymax="7092645.55622674338519573" xmax="1493109.42085038451477885"/>
+        <Extent ymin="4609044.98653969913721085" xmin="-980311.47595823102165014" ymax="7092645.67288132943212986" xmax="1493109.42085038451477885"/>
         <LayerSet>
           <Layer>classes20170520160505453</Layer>
           <Layer>Presid_2017_com20170520160421707</Layer>
@@ -9110,14 +9110,14 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="126.508" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="5.43573" y="126.508" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{18832be9-1024-42c5-9cd9-73547ba05e05}" height="92.6856" itemRotation="0" frame="false" pagex="5.43573">
+        <ComposerItem pagey="126.508" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="5.43573" y="126.508" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{18832be9-1024-42c5-9cd9-73547ba05e05}" height="92.6856" itemRotation="0" frame="false" pagex="5.43573">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="1" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="4609044.98653969913721085" xmin="-980311.47595823102165014" ymax="7092646.12179554533213377" xmax="1493109.42085038451477885"/>
+        <Extent ymin="4609044.98653969913721085" xmin="-980311.47595823102165014" ymax="7092645.67288132943212986" xmax="1493109.42085038451477885"/>
         <LayerSet>
           <Layer>classes20170520160505453</Layer>
           <Layer>Presid_2017_com20170520160421707</Layer>
@@ -10008,7 +10008,7 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="29.2987" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="101.301" y="29.2987" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{89db5994-617f-46d5-83ad-8b3e651981bb}" height="92.6856" itemRotation="0" frame="false" pagex="101.301">
+        <ComposerItem pagey="29.2987" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="101.301" y="29.2987" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{89db5994-617f-46d5-83ad-8b3e651981bb}" height="92.6856" itemRotation="0" frame="false" pagex="101.301">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -10858,6 +10858,53 @@ def my_form_open(dialog, layer, feature):
           </LayerStyle>
         </LayerStyles>
         <Grid/>
+        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{010087d3-f6ed-4e83-a4ec-ce27b2287329}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grille 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+          <lineStyle>
+            <symbol alpha="1" clip_to_extent="1" type="line" name="">
+              <layer pass="0" class="SimpleLine" locked="0">
+                <prop k="capstyle" v="square"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="0,0,0,255"/>
+                <prop k="line_style" v="solid"/>
+                <prop k="line_width" v="0"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+              </layer>
+            </symbol>
+          </lineStyle>
+          <markerStyle>
+            <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+              <layer pass="0" class="SimpleMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="color" v="0,0,0,255"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="name" v="circle"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="outline_color" v="0,0,0,255"/>
+                <prop k="outline_style" v="solid"/>
+                <prop k="outline_width" v="0"/>
+                <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="outline_width_unit" v="MM"/>
+                <prop k="scale_method" v="diameter"/>
+                <prop k="size" v="2"/>
+                <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
+              </layer>
+            </symbol>
+          </markerStyle>
+          <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+        </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
         <ComposerItem pagey="29.6787" page="1" id="" lastValidViewScaleFactor="2.14486" positionMode="0" positionLock="false" x="5.43573" y="29.6787" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="92.3057" outlineWidth="0.3" excludeFromExports="0" uuid="{2e344698-bc4f-4f74-b4b0-a3d98d7ad1bb}" height="92.3057" itemRotation="0" frame="false" pagex="5.43573">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
@@ -10894,7 +10941,7 @@ def my_form_open(dialog, layer, feature):
       <ComposerLabel valign="128" marginX="2" marginY="1" labelText="Au second tour" htmlState="0" halign="1">
         <LabelFont description="Open Sans,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="212.859" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="8.35937" y="212.859" visibility="1" zValue="59" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="36.2106" outlineWidth="0.3" excludeFromExports="0" uuid="{32edf675-1bf4-4e3c-b551-560a961cc144}" height="9.44671" itemRotation="0" frame="false" pagex="8.35937">
+        <ComposerItem pagey="212.859" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="8.35937" y="212.859" visibility="1" zValue="13" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="36.2106" outlineWidth="0.3" excludeFromExports="0" uuid="{32edf675-1bf4-4e3c-b551-560a961cc144}" height="9.44671" itemRotation="0" frame="false" pagex="8.35937">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="184" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -10903,7 +10950,7 @@ def my_form_open(dialog, layer, feature):
       <ComposerLabel valign="128" marginX="2" marginY="1" labelText="Au premier tour" htmlState="0" halign="2">
         <LabelFont description="Open Sans,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="28.6338" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="245.729" y="28.6338" visibility="1" zValue="47" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="40.9728" outlineWidth="0.3" excludeFromExports="0" uuid="{5f6fc590-4ffd-47a5-9c8d-19c2629668f5}" height="9.44671" itemRotation="0" frame="false" pagex="245.729">
+        <ComposerItem pagey="28.6338" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="245.729" y="28.6338" visibility="1" zValue="12" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="40.9728" outlineWidth="0.3" excludeFromExports="0" uuid="{5f6fc590-4ffd-47a5-9c8d-19c2629668f5}" height="9.44671" itemRotation="0" frame="false" pagex="245.729">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="184" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -10912,7 +10959,7 @@ def my_form_open(dialog, layer, feature):
       <ComposerLabel valign="128" marginX="2" marginY="1" labelText="... Abst. blancs et nuls (34 env.)" htmlState="0" halign="2">
         <LabelFont description="Open Sans,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="320.02" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="209.794" y="320.02" visibility="1" zValue="36" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="81.9456" outlineWidth="0.3" excludeFromExports="0" uuid="{51bcc1e4-5ce6-4192-b5f1-abafbb127d81}" height="9.44671" itemRotation="0" frame="false" pagex="209.794">
+        <ComposerItem pagey="320.02" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="209.794" y="320.02" visibility="1" zValue="11" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="81.9456" outlineWidth="0.3" excludeFromExports="0" uuid="{51bcc1e4-5ce6-4192-b5f1-abafbb127d81}" height="9.44671" itemRotation="0" frame="false" pagex="209.794">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="107" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -10921,7 +10968,7 @@ def my_form_open(dialog, layer, feature):
       <ComposerLabel valign="128" marginX="1" marginY="1" labelText="données ministère de l'intérieur, fonds carto Open Street Map | réalisation S. Comte mai 2017 - CC by sa" htmlState="0" halign="1">
         <LabelFont description="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="414.963" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="3.01839" y="414.963" visibility="1" zValue="34" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="281.048" outlineWidth="0.3" excludeFromExports="0" uuid="{9c995131-eaef-4735-9c86-23f49c12f73c}" height="5.03654" itemRotation="0" frame="false" pagex="3.01839">
+        <ComposerItem pagey="414.963" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="3.01839" y="414.963" visibility="1" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="281.048" outlineWidth="0.3" excludeFromExports="0" uuid="{9c995131-eaef-4735-9c86-23f49c12f73c}" height="5.03654" itemRotation="0" frame="false" pagex="3.01839">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -10930,7 +10977,7 @@ def my_form_open(dialog, layer, feature):
       <ComposerLabel valign="128" marginX="1" marginY="1" labelText="La carte de synthèse met en valeur les territoires les territoires en fonction de leur vote &quot;prioritaire&quot; et par ordre d'arrivée des candidats. Par exemple, en Bretagne, même si on a beaucoup voté Hamon et Mélanchon, on a également énormément voté pour Macron, qui ressort visuellement..." htmlState="0" halign="4">
         <LabelFont description="Open Sans,12,-1,5,50,1,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="12.462" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="5.69062" y="12.462" visibility="1" zValue="25" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="286.049" outlineWidth="0.3" excludeFromExports="0" uuid="{11b552fb-b6ed-4fcb-af2d-f260f8f0fb95}" height="13.0984" itemRotation="0" frame="false" pagex="5.69062">
+        <ComposerItem pagey="12.462" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="5.69062" y="12.462" visibility="1" zValue="9" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="286.049" outlineWidth="0.3" excludeFromExports="0" uuid="{11b552fb-b6ed-4fcb-af2d-f260f8f0fb95}" height="13.0984" itemRotation="0" frame="false" pagex="5.69062">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -10939,7 +10986,7 @@ def my_form_open(dialog, layer, feature):
       <ComposerLabel valign="128" marginX="1" marginY="1" labelText="Présidentielle 2017 - un portrait de la France" htmlState="0" halign="4">
         <LabelFont description="Open Sans,16,-1,5,75,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="60.1456" y="0" visibility="1" zValue="24" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="175.774" outlineWidth="0.3" excludeFromExports="0" uuid="{9f013774-7b71-46c7-9dfb-507b0a986f26}" height="12.4622" itemRotation="0" frame="false" pagex="60.1456">
+        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="60.1456" y="0" visibility="1" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="175.774" outlineWidth="0.3" excludeFromExports="0" uuid="{9f013774-7b71-46c7-9dfb-507b0a986f26}" height="12.4622" itemRotation="0" frame="false" pagex="60.1456">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -10948,7 +10995,7 @@ def my_form_open(dialog, layer, feature):
       <ComposerLabel valign="128" marginX="2" marginY="1" labelText="... Marine Le Pen (34,9 / 22,4)" htmlState="0" halign="4">
         <LabelFont description="Open Sans,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="320.02" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="107.01" y="320.02" visibility="1" zValue="23" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{73c899c0-91a7-443f-a1fd-6b56a13f97bf}" height="9.44671" itemRotation="0" frame="false" pagex="107.01">
+        <ComposerItem pagey="320.02" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="107.01" y="320.02" visibility="1" zValue="7" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{73c899c0-91a7-443f-a1fd-6b56a13f97bf}" height="9.44671" itemRotation="0" frame="false" pagex="107.01">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="106" red="137" blue="203" green="144"/>
           <customproperties/>
@@ -10957,7 +11004,7 @@ def my_form_open(dialog, layer, feature):
       <ComposerLabel valign="128" marginX="2" marginY="1" labelText="... Emmanuel Macron (66,1 / 43,6)" htmlState="0" halign="1">
         <LabelFont description="Open Sans,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="320.02" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="5.69062" y="320.02" visibility="1" zValue="22" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{63ae2a86-9f27-4720-8330-3eac0c7a97e2}" height="9.44671" itemRotation="0" frame="false" pagex="5.69062">
+        <ComposerItem pagey="320.02" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="5.69062" y="320.02" visibility="1" zValue="6" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="82.0447" outlineWidth="0.3" excludeFromExports="0" uuid="{63ae2a86-9f27-4720-8330-3eac0c7a97e2}" height="9.44671" itemRotation="0" frame="false" pagex="5.69062">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="107" red="242" blue="148" green="200"/>
           <customproperties/>
@@ -13342,7 +13389,7 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="210.45" page="1" id="" lastValidViewScaleFactor="1.78111" positionMode="0" positionLock="false" x="6.14062" y="210.45" visibility="1" zValue="11" background="true" transparency="0" frameJoinStyle="round" blendMode="0" width="96" outlineWidth="3" excludeFromExports="0" uuid="{237b1d57-2619-45a3-9e46-e3e2b6976b37}" height="96" itemRotation="0" frame="true" pagex="6.14062">
+        <ComposerItem pagey="210.45" page="1" id="" lastValidViewScaleFactor="1.78111" positionMode="0" positionLock="false" x="6.14062" y="210.45" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="round" blendMode="0" width="96" outlineWidth="3" excludeFromExports="0" uuid="{237b1d57-2619-45a3-9e46-e3e2b6976b37}" height="96" itemRotation="0" frame="true" pagex="6.14062">
           <FrameColor alpha="94" red="255" blue="255" green="255"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -14333,14 +14380,78 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="319.71" page="1" id="" lastValidViewScaleFactor="1.78111" positionMode="0" positionLock="false" x="197.729" y="319.71" visibility="1" zValue="10" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="96" outlineWidth="0.3" excludeFromExports="0" uuid="{4927a81a-0ce7-4929-8302-bb7281038177}" height="96" itemRotation="0" frame="false" pagex="197.729">
+        <ComposerItem pagey="319.71" page="1" id="" lastValidViewScaleFactor="1.78111" positionMode="0" positionLock="false" x="197.729" y="319.71" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="96" outlineWidth="0.3" excludeFromExports="0" uuid="{4927a81a-0ce7-4929-8302-bb7281038177}" height="96" itemRotation="0" frame="false" pagex="197.729">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerMap>
+      <ComposerMap mapRotation="0" keepLayerSet="true" id="5" previewMode="Cache" drawCanvasItems="true">
+        <Extent ymin="4793623.5148903364315629" xmin="-763461.86880801722873002" ymax="6896666.22287610080093145" xmax="1339580.83917774725705385"/>
+        <LayerSet>
+          <Layer>Presid_2017_com_320170521002903246</Layer>
+          <Layer>classes20170520160505453</Layer>
+          <Layer>Presid_2017_com20170520160421707</Layer>
+          <Layer>MLeP_copier20170520202340295</Layer>
+          <Layer>OSM_Standard20170520221504113</Layer>
+        </LayerSet>
+        <Grid/>
+        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{49e4b988-8e07-44de-85eb-4b98d51baf07}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grille 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+          <lineStyle>
+            <symbol alpha="1" clip_to_extent="1" type="line" name="">
+              <layer pass="0" class="SimpleLine" locked="0">
+                <prop k="capstyle" v="square"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="0,0,0,255"/>
+                <prop k="line_style" v="solid"/>
+                <prop k="line_width" v="0"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+              </layer>
+            </symbol>
+          </lineStyle>
+          <markerStyle>
+            <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+              <layer pass="0" class="SimpleMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="color" v="0,0,0,255"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="name" v="circle"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="outline_color" v="0,0,0,255"/>
+                <prop k="outline_style" v="solid"/>
+                <prop k="outline_width" v="0"/>
+                <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="outline_width_unit" v="MM"/>
+                <prop k="scale_method" v="diameter"/>
+                <prop k="size" v="2"/>
+                <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
+              </layer>
+            </symbol>
+          </markerStyle>
+          <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+        </ComposerMapGrid>
+        <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+        <ComposerItem pagey="319.71" page="1" id="" lastValidViewScaleFactor="1.78111" positionMode="0" positionLock="false" x="100.374" y="319.71" visibility="1" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="96" outlineWidth="0.3" excludeFromExports="0" uuid="{bf7c192c-608d-46c3-a6ff-deb17fd497ac}" height="96" itemRotation="0" frame="false" pagex="100.374">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="2" previewMode="Render" drawCanvasItems="true">
-        <Extent ymin="4692019.63967659510672092" xmin="-980922.41443759668618441" ymax="6777365.28250583913177252" xmax="1130723.56730320956557989"/>
+        <Extent ymin="4692019.63967659510672092" xmin="-980922.41443759668618441" ymax="6777363.65795580670237541" xmax="1130723.56730320956557989"/>
         <LayerSet>
           <Layer>Presid_2017_com_320170521002903246</Layer>
           <Layer>classes20170520160505453</Layer>
@@ -22671,71 +22782,7 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="25.5604" page="1" id="" lastValidViewScaleFactor="3.88491" positionMode="0" positionLock="false" x="3.01839" y="25.5604" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="290.711" outlineWidth="0.3" excludeFromExports="0" uuid="{56aa1a97-04ab-430a-8122-d78710488906}" height="287.09" itemRotation="0" frame="false" pagex="3.01839">
-          <FrameColor alpha="255" red="0" blue="0" green="0"/>
-          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-          <customproperties/>
-        </ComposerItem>
-      </ComposerMap>
-      <ComposerMap mapRotation="0" keepLayerSet="true" id="5" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="4793623.5148903364315629" xmin="-763461.86880801722873002" ymax="6896666.22287610080093145" xmax="1339580.83917774725705385"/>
-        <LayerSet>
-          <Layer>Presid_2017_com_320170521002903246</Layer>
-          <Layer>classes20170520160505453</Layer>
-          <Layer>Presid_2017_com20170520160421707</Layer>
-          <Layer>MLeP_copier20170520202340295</Layer>
-          <Layer>OSM_Standard20170520221504113</Layer>
-        </LayerSet>
-        <Grid/>
-        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{49e4b988-8e07-44de-85eb-4b98d51baf07}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grille 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
-          <lineStyle>
-            <symbol alpha="1" clip_to_extent="1" type="line" name="">
-              <layer pass="0" class="SimpleLine" locked="0">
-                <prop k="capstyle" v="square"/>
-                <prop k="customdash" v="5;2"/>
-                <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-                <prop k="customdash_unit" v="MM"/>
-                <prop k="draw_inside_polygon" v="0"/>
-                <prop k="joinstyle" v="bevel"/>
-                <prop k="line_color" v="0,0,0,255"/>
-                <prop k="line_style" v="solid"/>
-                <prop k="line_width" v="0"/>
-                <prop k="line_width_unit" v="MM"/>
-                <prop k="offset" v="0"/>
-                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="use_custom_dash" v="0"/>
-                <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-              </layer>
-            </symbol>
-          </lineStyle>
-          <markerStyle>
-            <symbol alpha="1" clip_to_extent="1" type="marker" name="">
-              <layer pass="0" class="SimpleMarker" locked="0">
-                <prop k="angle" v="0"/>
-                <prop k="color" v="0,0,0,255"/>
-                <prop k="horizontal_anchor_point" v="1"/>
-                <prop k="name" v="circle"/>
-                <prop k="offset" v="0,0"/>
-                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="outline_color" v="0,0,0,255"/>
-                <prop k="outline_style" v="solid"/>
-                <prop k="outline_width" v="0"/>
-                <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                <prop k="outline_width_unit" v="MM"/>
-                <prop k="scale_method" v="diameter"/>
-                <prop k="size" v="2"/>
-                <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                <prop k="size_unit" v="MM"/>
-                <prop k="vertical_anchor_point" v="1"/>
-              </layer>
-            </symbol>
-          </markerStyle>
-          <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-        </ComposerMapGrid>
-        <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="319.71" page="1" id="" lastValidViewScaleFactor="1.78111" positionMode="0" positionLock="false" x="100.374" y="319.71" visibility="1" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="96" outlineWidth="0.3" excludeFromExports="0" uuid="{bf7c192c-608d-46c3-a6ff-deb17fd497ac}" height="96" itemRotation="0" frame="false" pagex="100.374">
+        <ComposerItem pagey="25.5604" page="1" id="" lastValidViewScaleFactor="3.88491" positionMode="0" positionLock="false" x="3.01839" y="25.5604" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="290.711" outlineWidth="0.3" excludeFromExports="0" uuid="{56aa1a97-04ab-430a-8122-d78710488906}" height="287.09" itemRotation="0" frame="false" pagex="3.01839">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -22817,7 +22864,7 @@ def my_form_open(dialog, layer, feature):
   <projectlayers>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>4_classes_copier20170520162752936</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>4 classes copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -22884,90 +22931,6 @@ def my_form_open(dialog, layer, feature):
         </edittype>
         <edittype widgetv2type="TextEdit" name="CODE_EPCI">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_field_1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V3">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V4">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V5">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V6">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V7">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ins">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Art_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ass_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Che_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Dup_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Fil_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ham_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Las_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mel_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Pou_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
       <renderer-v2 attr="classes_V5" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
@@ -23088,8 +23051,6 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
         </source-symbol>
-        <colorramp type="randomcolors" name="[source]"/>
-        <invertedcolorramp value="0"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
@@ -23277,14 +23238,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
@@ -23311,7 +23272,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>5_classes_copier20170520163401997</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>5 classes copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -23378,90 +23339,6 @@ def my_form_open(dialog, layer, feature):
         </edittype>
         <edittype widgetv2type="TextEdit" name="CODE_EPCI">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_field_1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V3">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V4">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V5">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V6">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V7">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ins">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Art_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ass_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Che_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Dup_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Fil_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ham_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Las_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mel_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Pou_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
       <renderer-v2 attr="classes_V6" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
@@ -23792,14 +23669,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
@@ -23826,7 +23703,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>6_classes_copier20170520164159623</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>6 classes copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -23913,6 +23790,18 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="classes_V7">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V8">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V9">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V10">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V11">
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
@@ -24129,8 +24018,6 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
         </source-symbol>
-        <colorramp type="randomcolors" name="[source]"/>
-        <invertedcolorramp value="0"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
@@ -24318,14 +24205,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
@@ -24352,7 +24239,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>7_classes_copier20170520235319455</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>7 classes copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -24439,6 +24326,18 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="classes_V7">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V8">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V9">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V10">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V11">
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="Presid-2017-com-3_Nom">
@@ -45935,7 +45834,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>BHam_copier20170520191254025</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>BHam copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -46002,90 +45901,6 @@ def my_form_open(dialog, layer, feature):
         </edittype>
         <edittype widgetv2type="TextEdit" name="CODE_EPCI">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_field_1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V3">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V4">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V5">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V6">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V7">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ins">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Art_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ass_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Che_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Dup_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Fil_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ham_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Las_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mel_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Pou_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
       <renderer-v2 attr="Presid-2017-com_Las_T1" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
@@ -46660,7 +46475,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>COMMUNE20170520160319406</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>COMMUNE</shortname>
       <title></title>
       <abstract></abstract>
@@ -46747,6 +46562,18 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="classes_V7">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V8">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V9">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V10">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V11">
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
@@ -47385,7 +47212,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>COMMUNE_copier20170520160539966</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>COMMUNE copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -47452,90 +47279,6 @@ def my_form_open(dialog, layer, feature):
         </edittype>
         <edittype widgetv2type="TextEdit" name="CODE_EPCI">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_field_1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V3">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V4">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V5">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V6">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V7">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ins">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Art_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ass_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Che_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Dup_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Fil_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ham_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Las_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mel_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Pou_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
       <renderer-v2 attr="classes_V4" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
@@ -47640,8 +47383,6 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
         </source-symbol>
-        <colorramp type="randomcolors" name="[source]"/>
-        <invertedcolorramp value="1"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
@@ -47829,14 +47570,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
@@ -47863,7 +47604,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>COMMUNE_copier20170520170103699</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>COMMUNE copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -47950,6 +47691,18 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="classes_V7">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V8">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V9">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V10">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V11">
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
@@ -48362,14 +48115,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
@@ -48396,7 +48149,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Emac_copier20170520201915774</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>Emac copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -48463,90 +48216,6 @@ def my_form_open(dialog, layer, feature):
         </edittype>
         <edittype widgetv2type="TextEdit" name="CODE_EPCI">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_field_1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V3">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V4">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V5">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V6">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V7">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ins">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Art_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ass_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Che_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Dup_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Fil_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ham_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Las_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mel_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Pou_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
       <renderer-v2 attr="Presid-2017-com_Mac_T2" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
@@ -49121,7 +48790,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>FAss_copier20170520191744713</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>FAss copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -49208,6 +48877,18 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="classes_V7">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V8">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V9">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V10">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V11">
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
@@ -49846,7 +49527,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>FFil_copier20170520172319383</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>FFil copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -49913,90 +49594,6 @@ def my_form_open(dialog, layer, feature):
         </edittype>
         <edittype widgetv2type="TextEdit" name="CODE_EPCI">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_field_1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V3">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V4">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V5">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V6">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V7">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ins">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Art_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ass_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Che_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Dup_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Fil_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ham_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Las_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mel_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Pou_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
       <renderer-v2 attr="Presid-2017-com_Mel_T1" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
@@ -50571,7 +50168,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>JLMel_copier20170520172917185</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>JLMel copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -50658,6 +50255,18 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="classes_V7">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V8">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V9">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V10">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V11">
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
@@ -51136,7 +50745,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>JLMel_copier20170520173416550</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>JLMel copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -51203,90 +50812,6 @@ def my_form_open(dialog, layer, feature):
         </edittype>
         <edittype widgetv2type="TextEdit" name="CODE_EPCI">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_field_1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V3">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V4">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V5">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V6">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V7">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ins">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Art_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ass_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Che_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Dup_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Fil_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ham_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Las_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mel_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Pou_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
       <renderer-v2 attr="Presid-2017-com_Dup_T1" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
@@ -51701,7 +51226,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>JLas_copier20170520191450756</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>JLas copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -51788,6 +51313,18 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="classes_V7">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V8">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V9">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V10">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V11">
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
@@ -52424,9 +51961,9 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>MLeP_copier20170520172003802</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>MLeP copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -52493,90 +52030,6 @@ def my_form_open(dialog, layer, feature):
         </edittype>
         <edittype widgetv2type="TextEdit" name="CODE_EPCI">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_field_1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V3">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V4">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V5">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V6">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V7">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ins">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Art_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ass_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Che_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Dup_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Fil_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ham_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Las_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mel_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Pou_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
       <renderer-v2 attr="Presid-2017-com_Mac_T1" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
@@ -53111,7 +52564,7 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
           <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
@@ -53151,7 +52604,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>MLeP_copier20170520172151956</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>MLeP copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -53238,6 +52691,18 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="classes_V7">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V8">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V9">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V10">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V11">
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
@@ -53876,7 +53341,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>MLeP_copier20170520202340295</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>MLeP copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -53943,90 +53408,6 @@ def my_form_open(dialog, layer, feature):
         </edittype>
         <edittype widgetv2type="TextEdit" name="CODE_EPCI">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_field_1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V3">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V4">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V5">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V6">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V7">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ins">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Art_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ass_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Che_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Dup_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Fil_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ham_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Las_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mel_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Pou_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
       <renderer-v2 attr="Presid-2017-com_LeP_T2" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
@@ -54601,7 +53982,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>NArt_copier20170520191843889</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>NArt copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -54688,6 +54069,18 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="classes_V7">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V8">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V9">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V10">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V11">
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
@@ -55326,7 +54719,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="PyTiledLayer">
       <id>OSM_Standard20170520221504113</id>
-      <datasource></datasource>
+      <datasource>.</datasource>
       <shortname>OSM Standard</shortname>
       <title></title>
       <abstract></abstract>
@@ -55365,7 +54758,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="PyTiledLayer">
       <id>OSM_TF_Landscape20170520232737341</id>
-      <datasource></datasource>
+      <datasource>.</datasource>
       <shortname>OSM TF Landscape</shortname>
       <title></title>
       <abstract></abstract>
@@ -55404,7 +54797,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>PPou_copier20170520191653716</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>PPou copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -55471,90 +54864,6 @@ def my_form_open(dialog, layer, feature):
         </edittype>
         <edittype widgetv2type="TextEdit" name="CODE_EPCI">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_field_1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V3">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V4">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V5">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V6">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V7">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ins">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Art_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ass_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Che_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Dup_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Fil_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ham_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Las_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mel_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Pou_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
       <renderer-v2 attr="Presid-2017-com_Ass_T1" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
@@ -56129,7 +55438,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>Presid_2017_com20170520160421707</id>
-      <datasource>file:./Presid-2017-com.csv?type=csv&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <datasource>file:../data/Presid-2017-com.csv?type=csv&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
       <shortname>Presid-2017-com</shortname>
       <title></title>
       <abstract></abstract>
@@ -56245,7 +55554,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>Presid_2017_com_320170521002903246</id>
-      <datasource>file:./Presid-2017-com-3.csv?type=csv&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <datasource>file:../data/Presid-2017-com-3.csv?type=csv&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
       <shortname>Presid-2017-com-3</shortname>
       <title></title>
       <abstract></abstract>
@@ -56364,7 +55673,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>abst___blanc___nul__pondéré__copier20170520202539178</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>abst + blanc + nul (pondéré) copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -56451,6 +55760,18 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="classes_V7">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V8">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V9">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V10">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V11">
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
@@ -57089,7 +56410,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>abst_copier20170520170621864</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>abst copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -57156,90 +56477,6 @@ def my_form_open(dialog, layer, feature):
         </edittype>
         <edittype widgetv2type="TextEdit" name="CODE_EPCI">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_field_1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V3">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V4">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V5">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V6">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="classes_V7">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ins">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Art_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ass_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Che_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Dup_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Fil_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Ham_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Las_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mel_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Pou_T1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_a_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_b_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_n_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_Mac_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Presid-2017-com_LeP_T2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
       <renderer-v2 attr="Presid-2017-com_b_T1" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
@@ -57587,14 +56824,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
@@ -57621,7 +56858,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>blanc_copier20170520170844252</id>
-      <datasource>../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
+      <datasource>../../../../../Documents/Territoires/ADE_1-0_SHP_LAMB93_FR/COMMUNE.shp</datasource>
       <shortname>blanc copier</shortname>
       <title></title>
       <abstract></abstract>
@@ -57708,6 +56945,18 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="classes_V7">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V8">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V9">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V10">
+          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="classes_V11">
           <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="Presid-2017-com_Nom">
@@ -58346,7 +57595,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>classes20170520160505453</id>
-      <datasource>file:../../Documents/classes.csv?type=csv&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <datasource>file:../data/classes.csv?type=csv&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
       <shortname>classes</shortname>
       <title></title>
       <abstract></abstract>
@@ -58398,6 +57647,18 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="V7">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="V8">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="V9">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="V10">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="V11">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
