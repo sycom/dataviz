@@ -1,0 +1,46 @@
+created: 20170518131007100
+modified: 20170519202833016
+tags: R statistiques territoires communes
+title: Analyse des résultats des présidentielles avec R
+tmap.id: perso-2017-05-18-presidentielles_R
+type: text/vnd.tiddlywiki
+
+!! Préparation des données
+Les données des deux tours sont dispo sur data.gouv.fr ([[tour 1|http://www.data.gouv.fr/fr/datasets/election-presidentielle-des-23-avril-et-7-mai-2017-resultats-definitifs-du-1er-tour-par-communes/]] et [[tour 2|http://www.data.gouv.fr/fr/datasets/election-presidentielle-des-23-avril-et-7-mai-2017-resultats-du-2eme-tour-2/]])
+
+Un petit travail de préparation est nécessaire. Le plus simple est d'utiliser libre office :
+
+* code Insee à remettre en forme à partir des champs `Code du département` (col A) et `Code de la commune` (col C) : `=CONCATENER(DROITE(CONCATENER("0";A5);2);DROITE(CONCATENER("000";C5);3))`
+* selection des colonnes à conserver. Certaines redondances évidentes sont supprimées
+** Insee : numéro insee de la communes
+** Nom : nom de la communes
+** Inscrits : nombre d'inscrits sur les listes
+** Abst : % des abstentions par rapport aux Inscrits
+** Blancs / Nuls : % par rapport aux votants
+** Cand_T1 : % par rapport aux votants (un peu pénible parce que les colonnes sont par panneau d'affichage, pas par candidat) : `=si($L5=G$3;$P5;si($s5=G$3;$v5;si( ... ;"Erreur"))))))))))`
+** Cand_T2 : % par rapport aux votants
+
+Import de la base dans R, soit via excel, soit via un csv (csv est mieux parce que par excel on se retrouve facilement avec des colonnes vides, prévoir de se mettre en format américain pour les décimales...) > 35719 observations avec 22 variables...
+``
+> elec <- read_csv("~/zData/Presidentielle_2017_Resultats_Communes.csv")
+> View(elec)
+``
+
+!! premières explorations
+
+l'examen visuel des corrélations avec `pairs(elec)` en met clairement en évidence 3 fortes :
+* Mac_T2 inverse parfait de LeP_T2 : c'est une évidence par construction (% des suffrages exprimés...)
+* a_T1 avec a_T2 : la mobilisation des électeurs évolue peu sur un territoire d'un tour à l'autre
+* LeP_T1 avec LeP_T2 : la mobilisation autour de cette candidate se confirme d'un tour à l'autre
+
+L'acp brute sur toutes les colonnes numériques `acp <- prcomp(elec[,3:22])` est totalement écrasée par le nombre d'inscrits (seule variable quantitative).
+
+L'acp sur les seules variables en pourcentage et en excluant LeP_T2 dont la corrélation avec Mac_T2 est excessive `acp <- prcomp(elec[,4:21])` donne un résultat plus intéressant.
+
+Il semble toutefois que certaines variables aient une variance trop forte. Un passage par un échantillon centré réduit peut être intéressant `elecCR <- scale(elec[c(4:21)],center=T,scale=T)`
+
+!! clustering
+
+compte-tenu de l'énorme taille de la base, une CHA est impossible sans une très grosse machine. Du coup, on peut utiliser `clara()` du paquet //cluster//. Comme on peut pas faire de CHA, on peut passer par des nombres de clusters N de plus en plus grands : `claN <- clara(x = elecCR, k = N, samples = 100)`...
+
+Quand on a créé ses clusters et qu'on est content, on les stocke dans une table et on ajoute la colonne à la table `classes[c(N)] <- claN$clustering`, puis on sauvegarde dans un csv pour aller utiliser le tout ` write.csv(classes, "classes.csv")`
